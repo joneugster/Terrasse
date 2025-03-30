@@ -140,22 +140,22 @@
             <symbol type="2" id="6" code="0.6" name="Reachable" is_helper_symbol="true" is_hidden="true">
                 <line_symbol color="11" line_width="12000" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="7" code="1.1" name="Umriss">
+            <symbol type="2" id="7" code="1.1" name="Umriss" is_protected="true">
                 <line_symbol color="2" line_width="4000" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="400000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="400000" break_length="100000" dashes_in_group="1" in_group_break_length="50000" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="8" code="1.2" name="Beetkante">
+            <symbol type="2" id="8" code="1.2" name="Beetkante" is_protected="true">
                 <line_symbol color="2" line_width="2000" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="9" code="1.3" name="Kante">
+            <symbol type="2" id="9" code="1.3" name="Kante" is_protected="true">
                 <line_symbol color="2" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="4" id="10" code="2" name="Haus">
+            <symbol type="4" id="10" code="2" name="Haus" is_protected="true">
                 <area_symbol inner_color="2" min_area="0" patterns="0"/>
             </symbol>
-            <symbol type="4" id="11" code="3" name="Pflaster">
+            <symbol type="4" id="11" code="3" name="Pflaster" is_protected="true">
                 <area_symbol inner_color="9" min_area="0" patterns="0"/>
             </symbol>
-            <symbol type="4" id="12" code="4" name="Kiesel">
+            <symbol type="4" id="12" code="4" name="Kiesel" is_protected="true">
                 <area_symbol inner_color="9" min_area="0" patterns="1">
                     <pattern type="2" angle="0.785398" line_spacing="2500" line_offset="0" offset_along_line="0" point_distance="2500">
                         <symbol type="1" code="" name="Pattern fill 1">
@@ -164,10 +164,10 @@
                     </pattern>
                 </area_symbol>
             </symbol>
-            <symbol type="4" id="13" code="5" name="Beet">
+            <symbol type="4" id="13" code="5" name="Beet" is_protected="true">
                 <area_symbol inner_color="17" min_area="0" patterns="0"/>
             </symbol>
-            <symbol type="4" id="14" code="6.1" name="Bepflanzt">
+            <symbol type="4" id="14" code="6.1" name="Bepflanzt" is_protected="true">
                 <area_symbol inner_color="15" min_area="0" patterns="0"/>
             </symbol>
             <symbol type="4" id="15" code="6.1" name="Bepflanzt">
@@ -530,7 +530,7 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="35" code="15" name="Wasserhahn">
+            <symbol type="1" id="35" code="15" name="Wasserhahn" is_protected="true">
                 <point_symbol rotatable="true" inner_radius="0" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="2" code="">
@@ -562,13 +562,13 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="36" code="40" name="Topf">
+            <symbol type="1" id="36" code="40" name="Topf" is_protected="true">
                 <point_symbol inner_radius="2200" inner_color="3" outer_width="800" outer_color="8" elements="0"/>
             </symbol>
-            <symbol type="1" id="37" code="40.1" name="Topf: Sezuan">
+            <symbol type="1" id="37" code="40.1" name="Topf: Sezuan" is_protected="true">
                 <point_symbol inner_radius="2200" inner_color="3" outer_width="800" outer_color="8" elements="0"/>
             </symbol>
-            <symbol type="2" id="38" code="50" name="Pfad">
+            <symbol type="2" id="38" code="50" name="Pfad" is_protected="true">
                 <line_symbol color="-1" line_width="15000" minimum_length="0" join_style="1" cap_style="1" start_offset="0" end_offset="0" segment_length="8000" end_length="6000" minimum_mid_symbol_count="1" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="0" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" scale_dash_symbol="false">
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
@@ -614,7 +614,7 @@
                 </line_symbol>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAw0lEQVRYhe3WsQnFIBCAYe/xEGziACldJwsIKRzBAdJnh2xg4QIGskYgdWYISERfJ+E1ISAkkLvyR/2aK4QYI7ljPreoCCOMMMIII/xI+Hv1wjzPfwUAUkrHUtd1VVUlYWNM13Wc81y2bQMAxlguIQQhhLW2JLwsi5RSKZXLOI7TNPV9n8u6rlrr06fet1zvg+HS99Y517YtpTSXfd9DCMetjjE2TTMMQ0mYEOK9Pz1DKQWAwnCped9yIYwwwggj/Hz4B39KPvA/BXHaAAAAAElFTkSuQmCC"/>
             </symbol>
-            <symbol type="1" id="39" code="50.1" name="Trittstein">
+            <symbol type="1" id="39" code="50.1" name="Trittstein" is_protected="true">
                 <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="2" code="">
@@ -651,7 +651,7 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="2" id="40" code="51" name="Schirm">
+            <symbol type="2" id="40" code="51" name="Schirm" is_protected="true">
                 <line_symbol color="7" line_width="750" minimum_length="0" join_style="1" cap_style="0" start_offset="900" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="750" break_length="750" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <start_symbol>
                         <symbol type="1" code="" name="Start symbol">
@@ -660,7 +660,7 @@
                     </start_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="41" code="52" name="Sitzbank">
+            <symbol type="1" id="41" code="52" name="Sitzbank" is_protected="true">
                 <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="2" code="">
@@ -697,25 +697,25 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="8" id="42" code="100.1" name="Titel">
+            <symbol type="8" id="42" code="100.1" name="Titel" is_protected="true">
                 <text_symbol icon_text="" rotatable="true">
                     <font family="Arial" size="16933" bold="true"/>
                     <text color="2" line_spacing="1" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="8" id="43" code="100.2" name="Untertitel">
+            <symbol type="8" id="43" code="100.2" name="Untertitel" is_protected="true">
                 <text_symbol icon_text="" rotatable="true">
                     <font family="Arial" size="11289" bold="true"/>
                     <text color="2" line_spacing="1" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="8" id="44" code="100.3" name="Infotext">
+            <symbol type="8" id="44" code="100.3" name="Infotext" is_protected="true">
                 <text_symbol icon_text="" rotatable="true">
                     <font family="Arial" size="8467"/>
                     <text color="2" line_spacing="1.2" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="2" id="45" code="101" name="Bohnentipi">
+            <symbol type="2" id="45" code="101" name="Bohnentipi" is_protected="true">
                 <line_symbol color="8" line_width="1600" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="10000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
@@ -739,7 +739,7 @@
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="46" code="101" name="Nordpfeil">
+            <symbol type="1" id="46" code="101" name="Nordpfeil" is_protected="true">
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="4">
                     <element>
                         <symbol type="2" code="">
@@ -819,7 +819,7 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="16" id="47" code="102" name="Massstab">
+            <symbol type="16" id="47" code="102" name="Massstab" is_protected="true">
                 <combined_symbol parts="2">
                     <part private="true">
                         <symbol type="2" code="102.1" name="Masstab - Streifen">
@@ -833,7 +833,7 @@
                     </part>
                 </combined_symbol>
             </symbol>
-            <symbol type="4" id="48" code="520" name="Verbotenes Gebiet">
+            <symbol type="4" id="48" code="520" name="Verbotenes Gebiet" is_protected="true">
                 <description>ISSprOM</description>
                 <area_symbol inner_color="10" min_area="0" patterns="0"/>
             </symbol>
@@ -4581,7 +4581,7 @@ Saat geplant</text>
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="-0.44" unit="1" h_spacing="1" v_spacing="1" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="1.77496" position_x="-169104" position_y="-268433">
+            <map_view zoom="0.483903" position_x="-204980" position_y="-222558">
                 <map opacity="1" visible="true"/>
                 <templates count="1">
                     <ref template="0" opacity="1"/>
