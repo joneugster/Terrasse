@@ -92,7 +92,7 @@
             <symbol type="1" id="2" code="0.3" name="Marker" is_helper_symbol="true" is_hidden="true">
                 <point_symbol inner_radius="500" inner_color="-1" outer_width="1200" outer_color="0" elements="0"/>
             </symbol>
-            <symbol type="1" id="3" code="0.4" name="Map boundary" is_helper_symbol="true" is_hidden="true" is_protected="true">
+            <symbol type="1" id="3" code="0.4" name="Map boundary" is_helper_symbol="true" is_hidden="true">
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
                     <element>
                         <symbol type="2" code="">
@@ -116,7 +116,7 @@
             <symbol type="2" id="4" code="0.5" name="Beetrand" is_hidden="true">
                 <line_symbol color="0" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="1" id="5" code="0.5" name="Map boundary" is_helper_symbol="true" is_protected="true">
+            <symbol type="1" id="5" code="0.5" name="Map boundary" is_helper_symbol="true">
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="1">
                     <element>
                         <symbol type="2" code="">
@@ -140,22 +140,22 @@
             <symbol type="2" id="6" code="0.6" name="Reachable" is_helper_symbol="true" is_hidden="true">
                 <line_symbol color="11" line_width="12000" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="7" code="1.1" name="Umriss" is_protected="true">
+            <symbol type="2" id="7" code="1.1" name="Umriss">
                 <line_symbol color="2" line_width="4000" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="400000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="400000" break_length="100000" dashes_in_group="1" in_group_break_length="50000" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="8" code="1.2" name="Beetkante" is_protected="true">
+            <symbol type="2" id="8" code="1.2" name="Beetkante">
                 <line_symbol color="2" line_width="2000" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="2" id="9" code="1.3" name="Kante" is_protected="true">
+            <symbol type="2" id="9" code="1.3" name="Kante">
                 <line_symbol color="2" line_width="500" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
-            <symbol type="4" id="10" code="2" name="Haus" is_protected="true">
+            <symbol type="4" id="10" code="2" name="Haus">
                 <area_symbol inner_color="2" min_area="0" patterns="0"/>
             </symbol>
-            <symbol type="4" id="11" code="3" name="Pflaster" is_protected="true">
+            <symbol type="4" id="11" code="3" name="Pflaster">
                 <area_symbol inner_color="9" min_area="0" patterns="0"/>
             </symbol>
-            <symbol type="4" id="12" code="4" name="Kiesel" is_protected="true">
+            <symbol type="4" id="12" code="4" name="Kiesel">
                 <area_symbol inner_color="9" min_area="0" patterns="1">
                     <pattern type="2" angle="0.785398" line_spacing="2500" line_offset="0" offset_along_line="0" point_distance="2500">
                         <symbol type="1" code="" name="Pattern fill 1">
@@ -164,10 +164,10 @@
                     </pattern>
                 </area_symbol>
             </symbol>
-            <symbol type="4" id="13" code="5" name="Beet" is_protected="true">
+            <symbol type="4" id="13" code="5" name="Beet">
                 <area_symbol inner_color="17" min_area="0" patterns="0"/>
             </symbol>
-            <symbol type="4" id="14" code="6.1" name="Bepflanzt" is_protected="true">
+            <symbol type="4" id="14" code="6.1" name="Bepflanzt">
                 <area_symbol inner_color="15" min_area="0" patterns="0"/>
             </symbol>
             <symbol type="4" id="15" code="6.1" name="Bepflanzt">
@@ -250,50 +250,20 @@
             </symbol>
             <symbol type="2" id="28" code="9" name="Gesät">
                 <line_symbol color="-1" line_width="2000" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="1500" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
                             <point_symbol rotatable="true" inner_radius="500" inner_color="13" outer_width="0" outer_color="-1" elements="0"/>
                         </symbol>
                     </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                 </line_symbol>
             </symbol>
             <symbol type="2" id="29" code="9.1" name="Saat geplant">
                 <line_symbol color="-1" line_width="2000" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="1500" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
-                    <start_symbol>
-                        <symbol type="1" code="" name="Start symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </start_symbol>
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
                             <point_symbol rotatable="true" inner_radius="500" inner_color="12" outer_width="0" outer_color="-1" elements="0"/>
                         </symbol>
                     </mid_symbol>
-                    <end_symbol>
-                        <symbol type="1" code="" name="End symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </end_symbol>
-                    <dash_symbol>
-                        <symbol type="1" code="" name="Dash symbol">
-                            <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="0"/>
-                        </symbol>
-                    </dash_symbol>
                 </line_symbol>
             </symbol>
             <symbol type="1" id="30" code="10" name="Einzelblume">
@@ -530,7 +500,7 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="35" code="15" name="Wasserhahn" is_protected="true">
+            <symbol type="1" id="35" code="15" name="Wasserhahn">
                 <point_symbol rotatable="true" inner_radius="0" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="2" code="">
@@ -562,13 +532,13 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="36" code="40" name="Topf" is_protected="true">
+            <symbol type="1" id="36" code="40" name="Topf">
                 <point_symbol inner_radius="2200" inner_color="3" outer_width="800" outer_color="8" elements="0"/>
             </symbol>
-            <symbol type="1" id="37" code="40.1" name="Topf: Sezuan" is_protected="true">
+            <symbol type="1" id="37" code="40.1" name="Topf: Sezuan">
                 <point_symbol inner_radius="2200" inner_color="3" outer_width="800" outer_color="8" elements="0"/>
             </symbol>
-            <symbol type="2" id="38" code="50" name="Pfad" is_protected="true">
+            <symbol type="2" id="38" code="50" name="Pfad">
                 <line_symbol color="-1" line_width="15000" minimum_length="0" join_style="1" cap_style="1" start_offset="0" end_offset="0" segment_length="8000" end_length="6000" minimum_mid_symbol_count="1" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="0" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" scale_dash_symbol="false">
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
@@ -614,7 +584,7 @@
                 </line_symbol>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAw0lEQVRYhe3WsQnFIBCAYe/xEGziACldJwsIKRzBAdJnh2xg4QIGskYgdWYISERfJ+E1ISAkkLvyR/2aK4QYI7ljPreoCCOMMMIII/xI+Hv1wjzPfwUAUkrHUtd1VVUlYWNM13Wc81y2bQMAxlguIQQhhLW2JLwsi5RSKZXLOI7TNPV9n8u6rlrr06fet1zvg+HS99Y517YtpTSXfd9DCMetjjE2TTMMQ0mYEOK9Pz1DKQWAwnCped9yIYwwwggj/Hz4B39KPvA/BXHaAAAAAElFTkSuQmCC"/>
             </symbol>
-            <symbol type="1" id="39" code="50.1" name="Trittstein" is_protected="true">
+            <symbol type="1" id="39" code="50.1" name="Trittstein">
                 <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="2" code="">
@@ -651,7 +621,7 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="2" id="40" code="51" name="Schirm" is_protected="true">
+            <symbol type="2" id="40" code="51" name="Schirm">
                 <line_symbol color="7" line_width="750" minimum_length="0" join_style="1" cap_style="0" start_offset="900" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="750" break_length="750" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <start_symbol>
                         <symbol type="1" code="" name="Start symbol">
@@ -660,7 +630,7 @@
                     </start_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="41" code="52" name="Sitzbank" is_protected="true">
+            <symbol type="1" id="41" code="52" name="Sitzbank">
                 <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="2" code="">
@@ -697,25 +667,25 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="8" id="42" code="100.1" name="Titel" is_protected="true">
+            <symbol type="8" id="42" code="100.1" name="Titel">
                 <text_symbol icon_text="" rotatable="true">
                     <font family="Arial" size="16933" bold="true"/>
                     <text color="2" line_spacing="1" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="8" id="43" code="100.2" name="Untertitel" is_protected="true">
+            <symbol type="8" id="43" code="100.2" name="Untertitel">
                 <text_symbol icon_text="" rotatable="true">
                     <font family="Arial" size="11289" bold="true"/>
                     <text color="2" line_spacing="1" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="8" id="44" code="100.3" name="Infotext" is_protected="true">
+            <symbol type="8" id="44" code="100.3" name="Infotext">
                 <text_symbol icon_text="" rotatable="true">
                     <font family="Arial" size="8467"/>
                     <text color="2" line_spacing="1.2" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="2" id="45" code="101" name="Bohnentipi" is_protected="true">
+            <symbol type="2" id="45" code="101" name="Bohnentipi">
                 <line_symbol color="8" line_width="1600" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="10000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
@@ -739,7 +709,7 @@
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="46" code="101" name="Nordpfeil" is_protected="true">
+            <symbol type="1" id="46" code="101" name="Nordpfeil">
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="4">
                     <element>
                         <symbol type="2" code="">
@@ -819,7 +789,7 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="16" id="47" code="102" name="Massstab" is_protected="true">
+            <symbol type="16" id="47" code="102" name="Massstab">
                 <combined_symbol parts="2">
                     <part private="true">
                         <symbol type="2" code="102.1" name="Masstab - Streifen">
@@ -833,7 +803,7 @@
                     </part>
                 </combined_symbol>
             </symbol>
-            <symbol type="4" id="48" code="520" name="Verbotenes Gebiet" is_protected="true">
+            <symbol type="4" id="48" code="520" name="Verbotenes Gebiet">
                 <description>ISSprOM</description>
                 <area_symbol inner_color="10" min_area="0" patterns="0"/>
             </symbol>
@@ -841,9 +811,9 @@
                 <area_symbol inner_color="5" min_area="0" patterns="0"/>
             </symbol>
         </symbols>
-        <parts count="1" current="0">
-            <part name="default part">
-                <objects count="364">
+        <parts count="2" current="1">
+            <part name="grundkarte">
+                <objects count="286">
                     <object type="1" symbol="0">
                         <coords count="2">
                             <coord x="-235677" y="-305354" flags="32"/>
@@ -1621,36 +1591,6 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="23">
-                        <coords count="1">
-                            <coord x="-168320" y="-277709"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="22">
-                        <coords count="1">
-                            <coord x="-118365" y="-237254"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="22">
-                        <coords count="1">
-                            <coord x="-118365" y="-237254"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="22">
-                        <coords count="1">
-                            <coord x="-106511" y="-210923"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="22">
-                        <coords count="1">
-                            <coord x="-92913" y="-232137"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="22">
-                        <coords count="1">
-                            <coord x="-38436" y="-271291"/>
-                        </coords>
-                    </object>
                     <object type="0" symbol="3">
                         <coords count="1">
                             <coord x="-109152" y="-233056"/>
@@ -2181,11 +2121,6 @@ Lavendel
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
                         </pattern>
-                    </object>
-                    <object type="0" symbol="22">
-                        <coords count="1">
-                            <coord x="-287152" y="-116809"/>
-                        </coords>
                     </object>
                     <object type="1" symbol="47">
                         <coords count="2">
@@ -2803,18 +2738,6 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="15">
-                        <coords count="5">
-                            <coord x="-290655" y="-94593" flags="32"/>
-                            <coord x="-278456" y="-94593" flags="32"/>
-                            <coord x="-278456" y="-89563" flags="32"/>
-                            <coord x="-290655" y="-89563" flags="32"/>
-                            <coord x="-290655" y="-94593" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
                     <object type="1" symbol="38">
                         <coords count="2">
                             <coord x="-228219" y="-335891" flags="32"/>
@@ -2971,18 +2894,6 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="25">
-                        <coords count="5">
-                            <coord x="-271203" y="-259195"/>
-                            <coord x="-256029" y="-315399"/>
-                            <coord x="-260968" y="-316706"/>
-                            <coord x="-275786" y="-259885"/>
-                            <coord x="-271203" y="-259195" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
                     <object type="1" symbol="45">
                         <coords count="2">
                             <coord x="-165520" y="-324874" flags="32"/>
@@ -3014,39 +2925,6 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="24">
-                        <tags>
-                            <t k="Art">Stachelbeere</t>
-                        </tags>
-                        <coords count="1">
-                            <coord x="-200364" y="-252000"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="31">
-                        <coords count="1">
-                            <coord x="-175283" y="-266350"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="31">
-                        <coords count="1">
-                            <coord x="-179475" y="-265551"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="31">
-                        <coords count="1">
-                            <coord x="-179276" y="-262357"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="31">
-                        <coords count="1">
-                            <coord x="-184865" y="-251576"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="31">
-                        <coords count="1">
-                            <coord x="-181072" y="-253174"/>
-                        </coords>
-                    </object>
                     <object type="1" symbol="14">
                         <coords count="7">
                             <coord x="-185665" y="-291148"/>
@@ -3070,18 +2948,6 @@ Vorbepflanzt (divers)
 Geplant/Idee
 Saat geplant</text>
                     </object>
-                    <object type="1" symbol="19">
-                        <coords count="5">
-                            <coord x="-99034" y="-66950" flags="32"/>
-                            <coord x="-86835" y="-66950" flags="32"/>
-                            <coord x="-86835" y="-61920" flags="32"/>
-                            <coord x="-99034" y="-61920" flags="32"/>
-                            <coord x="-99034" y="-66950" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
                     <object type="1" symbol="14">
                         <coords count="5">
                             <coord x="-99242" y="-79007" flags="32"/>
@@ -3094,11 +2960,6 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="18">
-                        <coords count="1">
-                            <coord x="-92934" y="-87925"/>
-                        </coords>
-                    </object>
                     <object type="1" symbol="40">
                         <coords count="2">
                             <coord x="-289162" y="-152035"/>
@@ -3108,66 +2969,6 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="33">
-                        <tags>
-                            <t k="Art">Ringelblumen</t>
-                        </tags>
-                        <coords count="5">
-                            <coord x="-204476" y="-244008"/>
-                            <coord x="-203989" y="-246431"/>
-                            <coord x="-222604" y="-250793"/>
-                            <coord x="-222935" y="-247809"/>
-                            <coord x="-204476" y="-244008" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="20">
-                        <coords count="5">
-                            <coord x="-243165" y="-351270"/>
-                            <coord x="-242613" y="-346096"/>
-                            <coord x="-217750" y="-340317"/>
-                            <coord x="-216489" y="-344312"/>
-                            <coord x="-243165" y="-351270" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="26">
-                        <coords count="5">
-                            <coord x="-252174" y="-330077"/>
-                            <coord x="-255916" y="-331325"/>
-                            <coord x="-259770" y="-316406"/>
-                            <coord x="-256002" y="-315332"/>
-                            <coord x="-252174" y="-330077" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="16">
-                        <tags>
-                            <t k="Art">Spinat, Wintersalat</t>
-                        </tags>
-                        <coords count="6">
-                            <coord x="-265286" y="-258530"/>
-                            <coord x="-262900" y="-268398"/>
-                            <coord x="-264634" y="-269027"/>
-                            <coord x="-268336" y="-269926"/>
-                            <coord x="-271217" y="-259747"/>
-                            <coord x="-265286" y="-258530" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="0" symbol="31">
-                        <coords count="1">
-                            <coord x="-280472" y="-104669"/>
-                        </coords>
-                    </object>
                     <object type="1" symbol="13">
                         <coords count="5">
                             <coord x="-289873" y="-107233" flags="32"/>
@@ -3175,18 +2976,6 @@ Saat geplant</text>
                             <coord x="-277674" y="-102203" flags="32"/>
                             <coord x="-289873" y="-102203" flags="32"/>
                             <coord x="-289873" y="-107233" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="33">
-                        <coords count="5">
-                            <coord x="-289883" y="-107252"/>
-                            <coord x="-284245" y="-107174"/>
-                            <coord x="-284296" y="-102211"/>
-                            <coord x="-289883" y="-102211"/>
-                            <coord x="-289883" y="-107252" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -3208,19 +2997,6 @@ Saat geplant</text>
                         <coords count="1">
                             <coord x="-280664" y="-163104"/>
                         </coords>
-                    </object>
-                    <object type="1" symbol="15">
-                        <coords count="6">
-                            <coord x="-246974" y="-206805"/>
-                            <coord x="-237676" y="-234044"/>
-                            <coord x="-245010" y="-235484"/>
-                            <coord x="-258891" y="-209097"/>
-                            <coord x="-247432" y="-206478"/>
-                            <coord x="-246974" y="-206805" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
                     </object>
                     <object type="1" symbol="0">
                         <coords count="2">
@@ -3686,34 +3462,76 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="15">
-                        <coords count="10">
-                            <coord x="-204314" y="-244565"/>
-                            <coord x="-202801" y="-250083"/>
-                            <coord x="-201853" y="-254098"/>
-                            <coord x="-201391" y="-255508"/>
-                            <coord x="-195582" y="-253980"/>
-                            <coord x="-194679" y="-254413"/>
-                            <coord x="-194320" y="-256409"/>
-                            <coord x="-219543" y="-263389"/>
-                            <coord x="-222557" y="-248530"/>
-                            <coord x="-204314" y="-244565" flags="18"/>
+                    <object type="0" symbol="39" rotation="-0.28269">
+                        <coords count="1">
+                            <coord x="-158100" y="-200470"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="38">
+                        <coords count="2">
+                            <coord x="-155378" y="-190265"/>
+                            <coord x="-163135" y="-192306"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
+                    <object type="1" symbol="13">
+                        <coords count="8">
+                            <coord x="-109454" y="-188479" flags="32"/>
+                            <coord x="-131676" y="-205089" flags="32"/>
+                            <coord x="-136727" y="-261522" flags="32"/>
+                            <coord x="-110767" y="-259597"/>
+                            <coord x="-105091" y="-259178"/>
+                            <coord x="-77420" y="-257124" flags="32"/>
+                            <coord x="-73630" y="-215566" flags="32"/>
+                            <coord x="-109454" y="-188479" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="49">
+                        <coords count="5">
+                            <coord x="-291496" y="-48547" flags="32"/>
+                            <coord x="-279297" y="-48547" flags="32"/>
+                            <coord x="-279297" y="-43517" flags="32"/>
+                            <coord x="-291496" y="-43517" flags="32"/>
+                            <coord x="-291496" y="-48547" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="22">
+                        <coords count="1">
+                            <coord x="-287152" y="-116809"/>
+                        </coords>
+                    </object>
                     <object type="1" symbol="15">
-                        <coords count="9">
-                            <coord x="-262871" y="-258154"/>
-                            <coord x="-260424" y="-267746"/>
-                            <coord x="-262871" y="-268305"/>
-                            <coord x="-268307" y="-269771"/>
-                            <coord x="-267636" y="-272260"/>
-                            <coord x="-252200" y="-330062"/>
-                            <coord x="-255826" y="-331062"/>
-                            <coord x="-274739" y="-260327"/>
-                            <coord x="-262871" y="-258154" flags="18"/>
+                        <coords count="5">
+                            <coord x="-290655" y="-94593" flags="32"/>
+                            <coord x="-278456" y="-94593" flags="32"/>
+                            <coord x="-278456" y="-89563" flags="32"/>
+                            <coord x="-290655" y="-89563" flags="32"/>
+                            <coord x="-290655" y="-94593" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="31">
+                        <coords count="1">
+                            <coord x="-280472" y="-104669"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="33">
+                        <coords count="5">
+                            <coord x="-289883" y="-107252"/>
+                            <coord x="-284245" y="-107174"/>
+                            <coord x="-284296" y="-102211"/>
+                            <coord x="-289883" y="-102211"/>
+                            <coord x="-289883" y="-107252" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -3736,172 +3554,384 @@ Saat geplant</text>
                             <coord x="-280949" y="-116891"/>
                         </coords>
                     </object>
-                    <object type="1" symbol="32">
-                        <tags>
-                            <t k="Art">Ringelblumen</t>
-                        </tags>
-                        <coords count="4">
-                            <coord x="-255170" y="-208988"/>
-                            <coord x="-250349" y="-223349"/>
-                            <coord x="-258221" y="-209340"/>
-                            <coord x="-255170" y="-208988" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="0" symbol="34">
-                        <coords count="1">
-                            <coord x="-165105" y="-257413"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="34">
-                        <tags>
-                            <t k="Art">Franz.  Estragon</t>
-                        </tags>
-                        <coords count="1">
-                            <coord x="-163044" y="-260808"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="34">
-                        <tags>
-                            <t k="Art">Thymian</t>
-                        </tags>
-                        <coords count="1">
-                            <coord x="-158661" y="-267801"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="34">
-                        <tags>
-                            <t k="Art">Rosmarin</t>
-                        </tags>
-                        <coords count="1">
-                            <coord x="-156488" y="-271425"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="34">
-                        <tags>
-                            <t k="Art">Oregano</t>
-                        </tags>
-                        <coords count="1">
-                            <coord x="-154182" y="-275201"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="34">
-                        <tags>
-                            <t k="Art">Oregano</t>
-                        </tags>
-                        <coords count="1">
-                            <coord x="-151876" y="-278780"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="34">
-                        <tags>
-                            <t k="Art">Bohnenkraut</t>
-                        </tags>
-                        <coords count="1">
-                            <coord x="-146427" y="-281199"/>
-                        </coords>
-                    </object>
                     <object type="0" symbol="34">
                         <coords count="1">
                             <coord x="-284608" y="-58551"/>
                         </coords>
                     </object>
-                    <object type="1" symbol="15">
-                        <coords count="11">
-                            <coord x="-149873" y="-279758"/>
-                            <coord x="-148752" y="-282546"/>
-                            <coord x="-147928" y="-283475"/>
-                            <coord x="-146915" y="-283960"/>
-                            <coord x="-145944" y="-283939"/>
-                            <coord x="-144530" y="-283221"/>
-                            <coord x="-143918" y="-282272"/>
-                            <coord x="-143623" y="-281301"/>
-                            <coord x="-143517" y="-280203"/>
-                            <coord x="-143538" y="-279380"/>
-                            <coord x="-149873" y="-279758" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="0" symbol="39" rotation="-0.28269">
-                        <coords count="1">
-                            <coord x="-158100" y="-200470"/>
-                        </coords>
-                    </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="28">
                         <coords count="2">
-                            <coord x="-155378" y="-190265"/>
-                            <coord x="-163135" y="-192306"/>
+                            <coord x="-288188" y="-67647" flags="32"/>
+                            <coord x="-288152" y="-72058" flags="32"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="24">
+                    <object type="1" symbol="16">
+                        <coords count="5">
+                            <coord x="-284740" y="-72576" flags="32"/>
+                            <coord x="-277025" y="-72575" flags="32"/>
+                            <coord x="-276971" y="-66798" flags="32"/>
+                            <coord x="-284905" y="-66901" flags="32"/>
+                            <coord x="-284740" y="-72576" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="19">
+                        <coords count="5">
+                            <coord x="-99034" y="-66950" flags="32"/>
+                            <coord x="-86835" y="-66950" flags="32"/>
+                            <coord x="-86835" y="-61920" flags="32"/>
+                            <coord x="-99034" y="-61920" flags="32"/>
+                            <coord x="-99034" y="-66950" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="18">
+                        <coords count="1">
+                            <coord x="-92934" y="-87925"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="17">
+                        <coords count="5">
+                            <coord x="-99322" y="-55479" flags="32"/>
+                            <coord x="-87123" y="-55479" flags="32"/>
+                            <coord x="-87123" y="-50449" flags="32"/>
+                            <coord x="-99322" y="-50449" flags="32"/>
+                            <coord x="-99322" y="-55479" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </objects>
+            </part>
+            <part name="pflanzen">
+                <objects count="78">
+                    <object type="0" symbol="18">
                         <tags>
-                            <t k="Art">Johannisbeere</t>
+                            <t k="Art">Rabarber</t>
                         </tags>
                         <coords count="1">
-                            <coord x="-155385" y="-185128"/>
+                            <coord x="-9630" y="-256730"/>
                         </coords>
                     </object>
                     <object type="0" symbol="24">
-                        <tags>
-                            <t k="Art">Johannisbeere</t>
-                        </tags>
                         <coords count="1">
-                            <coord x="-162249" y="-187000"/>
+                            <coord x="-17683" y="-269624"/>
                         </coords>
                     </object>
                     <object type="0" symbol="24">
-                        <tags>
-                            <t k="Art">Johannisbeere</t>
-                        </tags>
                         <coords count="1">
-                            <coord x="-170611" y="-189371"/>
+                            <coord x="-8884" y="-265464"/>
                         </coords>
                     </object>
                     <object type="0" symbol="24">
-                        <tags>
-                            <t k="Art">Johannisbeere</t>
-                        </tags>
                         <coords count="1">
-                            <coord x="-179222" y="-191493"/>
+                            <coord x="-27602" y="-274583"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="24">
-                        <tags>
-                            <t k="Art">Johannisbeere</t>
-                        </tags>
+                    <object type="0" symbol="18">
                         <coords count="1">
-                            <coord x="-188582" y="-193864"/>
+                            <coord x="-247505" y="-349063"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="24">
-                        <tags>
-                            <t k="Art">Stachelbeere</t>
-                        </tags>
+                    <object type="0" symbol="34">
                         <coords count="1">
-                            <coord x="-199564" y="-196859"/>
+                            <coord x="-160984" y="-264258"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="24">
+                    <object type="1" symbol="15">
                         <tags>
-                            <t k="Art">Stachelbeere</t>
+                            <t k="Art">Petersilie</t>
                         </tags>
+                        <coords count="8">
+                            <coord x="-163816" y="-263029"/>
+                            <coord x="-164244" y="-260360"/>
+                            <coord x="-167020" y="-258544"/>
+                            <coord x="-168301" y="-259719"/>
+                            <coord x="-168301" y="-262388"/>
+                            <coord x="-166272" y="-263456"/>
+                            <coord x="-165205" y="-263670"/>
+                            <coord x="-163816" y="-263029" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="34">
                         <coords count="1">
-                            <coord x="-223026" y="-202724"/>
+                            <coord x="-167246" y="-254128"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="24">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-197395" y="-304778" flags="32"/>
+                            <coord x="-190278" y="-331316" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
                         <tags>
-                            <t k="Art">Stachelbeere</t>
+                            <t k="Art">Salat</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-260829" y="-261453" flags="32"/>
+                            <coord x="-260387" y="-263094" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="30">
+                        <tags>
+                            <t k="Art">Pfingstrose</t>
                         </tags>
                         <coords count="1">
-                            <coord x="-210421" y="-199480"/>
+                            <coord x="-107811" y="-256815"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Knoblauch</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-217980" y="-259488" flags="32"/>
+                            <coord x="-202306" y="-255511" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="15">
+                        <coords count="7">
+                            <coord x="-181568" y="-334718"/>
+                            <coord x="-190363" y="-301521"/>
+                            <coord x="-204645" y="-304737"/>
+                            <coord x="-196606" y="-335665"/>
+                            <coord x="-190174" y="-333962"/>
+                            <coord x="-189228" y="-336894"/>
+                            <coord x="-181568" y="-334718" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Knoblauch</t>
+                            <t k="Sorte">Moradol</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-218215" y="-261193" flags="32"/>
+                            <coord x="-195645" y="-255392" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="29">
+                        <coords count="2">
+                            <coord x="-201623" y="-306132" flags="32"/>
+                            <coord x="-194706" y="-332629" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Zwiebel</t>
+                            <t k="Sorte">Stuttgarter Riesen</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-193079" y="-302476"/>
+                            <coord x="-184765" y="-333341"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="18">
+                        <tags>
+                            <t k="Art">Baumspinat</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-121852" y="-253599"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Asiasalat</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-219211" y="-257144"/>
+                            <coord x="-203047" y="-253153"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Asiasalat</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-219675" y="-254787"/>
+                            <coord x="-203375" y="-251056"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Kohlrabi blau</t>
+                            <t k="ehemalig">Asiasalat</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-220582" y="-251504"/>
+                            <coord x="-204051" y="-247776"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="15">
+                        <tags>
+                            <t k="Art">Baumspinat</t>
+                        </tags>
+                        <coords count="8">
+                            <coord x="-172222" y="-242238"/>
+                            <coord x="-174483" y="-243465"/>
+                            <coord x="-177519" y="-243853"/>
+                            <coord x="-180103" y="-242496"/>
+                            <coord x="-183204" y="-239072"/>
+                            <coord x="-173837" y="-236876"/>
+                            <coord x="-171834" y="-241269"/>
+                            <coord x="-172222" y="-242238" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="18">
+                        <tags>
+                            <t k="Art">Baumspinat</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-175429" y="-241296"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Möhre</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-248655" y="-208797"/>
+                            <coord x="-240369" y="-232271"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Möhren</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-252105" y="-209672" flags="32"/>
+                            <coord x="-243827" y="-233128" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Frühlingszwiebeln</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-253824" y="-210172" flags="32"/>
+                            <coord x="-248044" y="-226284" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Zwiebel</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-241997" y="-232788" flags="32"/>
+                            <coord x="-250307" y="-209330" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Ruccola</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-262358" y="-265999"/>
+                            <coord x="-264013" y="-259625"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <tags>
+                            <t k="Art">Radieschen</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-221536" y="-253787"/>
+                            <coord x="-203717" y="-249687" flags="16"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Salbei</t>
+                            <t k="Sortiment">Muskatella</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-185349" y="-283739"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <coords count="1">
+                            <coord x="-161846" y="-271962"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <coords count="1">
+                            <coord x="-159868" y="-275654"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <coords count="1">
+                            <coord x="-157659" y="-279250"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Liebstöckel</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-171016" y="-247996"/>
                         </coords>
                     </object>
                     <object type="1" symbol="32">
@@ -3924,223 +3954,420 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="24">
                         <tags>
-                            <t k="Art">Liebstöckel</t>
+                            <t k="Art">Stachelbeere</t>
                         </tags>
                         <coords count="1">
-                            <coord x="-171016" y="-247996"/>
+                            <coord x="-210421" y="-199480"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
-                        <coords count="1">
-                            <coord x="-157659" y="-279250"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="34">
-                        <coords count="1">
-                            <coord x="-159868" y="-275654"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="34">
-                        <coords count="1">
-                            <coord x="-161846" y="-271962"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="24">
                         <tags>
-                            <t k="Art">Salbei</t>
-                            <t k="Sortiment">Muskatella</t>
+                            <t k="Art">Stachelbeere</t>
                         </tags>
                         <coords count="1">
-                            <coord x="-185349" y="-283739"/>
+                            <coord x="-223026" y="-202724"/>
                         </coords>
                     </object>
-                    <object type="1" symbol="28">
+                    <object type="0" symbol="24">
                         <tags>
-                            <t k="Art">Radieschen</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-221536" y="-253787"/>
-                            <coord x="-203717" y="-249687" flags="16"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Ruccola</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-262358" y="-265999"/>
-                            <coord x="-264013" y="-259625"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Zwiebel</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-241997" y="-232788" flags="32"/>
-                            <coord x="-250307" y="-209330" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Frühlingszwiebeln</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-253824" y="-210172" flags="32"/>
-                            <coord x="-248044" y="-226284" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Möhren</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-252105" y="-209672" flags="32"/>
-                            <coord x="-243827" y="-233128" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Möhre</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-248655" y="-208797"/>
-                            <coord x="-240369" y="-232271"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="0" symbol="18">
-                        <tags>
-                            <t k="Art">Baumspinat</t>
+                            <t k="Art">Stachelbeere</t>
                         </tags>
                         <coords count="1">
-                            <coord x="-175429" y="-241296"/>
+                            <coord x="-199564" y="-196859"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="24">
+                        <tags>
+                            <t k="Art">Johannisbeere</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-188582" y="-193864"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="24">
+                        <tags>
+                            <t k="Art">Johannisbeere</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-179222" y="-191493"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="24">
+                        <tags>
+                            <t k="Art">Johannisbeere</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-170611" y="-189371"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="24">
+                        <tags>
+                            <t k="Art">Johannisbeere</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-162249" y="-187000"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="24">
+                        <tags>
+                            <t k="Art">Johannisbeere</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-155385" y="-185128"/>
                         </coords>
                     </object>
                     <object type="1" symbol="15">
-                        <tags>
-                            <t k="Art">Baumspinat</t>
-                        </tags>
-                        <coords count="8">
-                            <coord x="-172222" y="-242238"/>
-                            <coord x="-174483" y="-243465"/>
-                            <coord x="-177519" y="-243853"/>
-                            <coord x="-180103" y="-242496"/>
-                            <coord x="-183204" y="-239072"/>
-                            <coord x="-173837" y="-236876"/>
-                            <coord x="-171834" y="-241269"/>
-                            <coord x="-172222" y="-242238" flags="18"/>
+                        <coords count="11">
+                            <coord x="-149873" y="-279758"/>
+                            <coord x="-148752" y="-282546"/>
+                            <coord x="-147928" y="-283475"/>
+                            <coord x="-146915" y="-283960"/>
+                            <coord x="-145944" y="-283939"/>
+                            <coord x="-144530" y="-283221"/>
+                            <coord x="-143918" y="-282272"/>
+                            <coord x="-143623" y="-281301"/>
+                            <coord x="-143517" y="-280203"/>
+                            <coord x="-143538" y="-279380"/>
+                            <coord x="-149873" y="-279758" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="28">
+                    <object type="0" symbol="34">
                         <tags>
-                            <t k="Art">Kohlrabi blau</t>
-                            <t k="ehemalig">Asiasalat</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-220582" y="-251504"/>
-                            <coord x="-204051" y="-247776"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Asiasalat</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-219675" y="-254787"/>
-                            <coord x="-203375" y="-251056"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Asiasalat</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-219211" y="-257144"/>
-                            <coord x="-203047" y="-253153"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="0" symbol="18">
-                        <tags>
-                            <t k="Art">Baumspinat</t>
+                            <t k="Art">Bohnenkraut</t>
                         </tags>
                         <coords count="1">
-                            <coord x="-121852" y="-253599"/>
+                            <coord x="-146427" y="-281199"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Oregano</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-151876" y="-278780"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Oregano</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-154182" y="-275201"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Rosmarin</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-156488" y="-271425"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Thymian</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-158661" y="-267801"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Franz.  Estragon</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-163044" y="-260808"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <coords count="1">
+                            <coord x="-165105" y="-257413"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="32">
+                        <tags>
+                            <t k="Art">Ringelblumen</t>
+                        </tags>
+                        <coords count="4">
+                            <coord x="-255170" y="-208988"/>
+                            <coord x="-250349" y="-223349"/>
+                            <coord x="-258221" y="-209340"/>
+                            <coord x="-255170" y="-208988" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="15">
+                        <coords count="9">
+                            <coord x="-262871" y="-258154"/>
+                            <coord x="-260424" y="-267746"/>
+                            <coord x="-262871" y="-268305"/>
+                            <coord x="-268307" y="-269771"/>
+                            <coord x="-267636" y="-272260"/>
+                            <coord x="-252200" y="-330062"/>
+                            <coord x="-255826" y="-331062"/>
+                            <coord x="-274739" y="-260327"/>
+                            <coord x="-262871" y="-258154" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="15">
+                        <coords count="10">
+                            <coord x="-204314" y="-244565"/>
+                            <coord x="-202801" y="-250083"/>
+                            <coord x="-201853" y="-254098"/>
+                            <coord x="-201391" y="-255508"/>
+                            <coord x="-195582" y="-253980"/>
+                            <coord x="-194679" y="-254413"/>
+                            <coord x="-194320" y="-256409"/>
+                            <coord x="-219543" y="-263389"/>
+                            <coord x="-222557" y="-248530"/>
+                            <coord x="-204314" y="-244565" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="15">
+                        <coords count="6">
+                            <coord x="-246974" y="-206805"/>
+                            <coord x="-237676" y="-234044"/>
+                            <coord x="-245010" y="-235484"/>
+                            <coord x="-258891" y="-209097"/>
+                            <coord x="-247432" y="-206478"/>
+                            <coord x="-246974" y="-206805" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="16">
+                        <tags>
+                            <t k="Art">Spinat, Wintersalat</t>
+                        </tags>
+                        <coords count="6">
+                            <coord x="-265286" y="-258530"/>
+                            <coord x="-262900" y="-268398"/>
+                            <coord x="-264634" y="-269027"/>
+                            <coord x="-268336" y="-269926"/>
+                            <coord x="-271217" y="-259747"/>
+                            <coord x="-265286" y="-258530" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="26">
+                        <coords count="5">
+                            <coord x="-252174" y="-330077"/>
+                            <coord x="-255916" y="-331325"/>
+                            <coord x="-259770" y="-316406"/>
+                            <coord x="-256002" y="-315332"/>
+                            <coord x="-252174" y="-330077" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="20">
+                        <coords count="5">
+                            <coord x="-243165" y="-351270"/>
+                            <coord x="-242613" y="-346096"/>
+                            <coord x="-217750" y="-340317"/>
+                            <coord x="-216489" y="-344312"/>
+                            <coord x="-243165" y="-351270" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="33">
+                        <tags>
+                            <t k="Art">Ringelblumen</t>
+                        </tags>
+                        <coords count="5">
+                            <coord x="-204476" y="-244008"/>
+                            <coord x="-203989" y="-246431"/>
+                            <coord x="-222604" y="-250793"/>
+                            <coord x="-222935" y="-247809"/>
+                            <coord x="-204476" y="-244008" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="31">
+                        <coords count="1">
+                            <coord x="-181072" y="-253174"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="31">
+                        <coords count="1">
+                            <coord x="-184865" y="-251576"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="31">
+                        <coords count="1">
+                            <coord x="-179276" y="-262357"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="31">
+                        <coords count="1">
+                            <coord x="-179475" y="-265551"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="31">
+                        <coords count="1">
+                            <coord x="-175283" y="-266350"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="24">
+                        <tags>
+                            <t k="Art">Stachelbeere</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-200364" y="-252000"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="25">
+                        <coords count="5">
+                            <coord x="-271203" y="-259195"/>
+                            <coord x="-256029" y="-315399"/>
+                            <coord x="-260968" y="-316706"/>
+                            <coord x="-275786" y="-259885"/>
+                            <coord x="-271203" y="-259195" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="22">
+                        <coords count="1">
+                            <coord x="-38436" y="-271291"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="22">
+                        <coords count="1">
+                            <coord x="-92913" y="-232137"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="22">
+                        <coords count="1">
+                            <coord x="-106511" y="-210923"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="22">
+                        <coords count="1">
+                            <coord x="-118365" y="-237254"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="22">
+                        <coords count="1">
+                            <coord x="-118365" y="-237254"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="23">
+                        <coords count="1">
+                            <coord x="-168320" y="-277709"/>
                         </coords>
                     </object>
                     <object type="1" symbol="49">
-                        <coords count="11">
-                            <coord x="-128713" y="-260521"/>
-                            <coord x="-127218" y="-249843"/>
-                            <coord x="-127005" y="-245145"/>
-                            <coord x="-128072" y="-239592"/>
-                            <coord x="-128286" y="-233186"/>
-                            <coord x="-127859" y="-227633"/>
-                            <coord x="-128927" y="-224857"/>
-                            <coord x="-131062" y="-224430"/>
-                            <coord x="-132771" y="-224430"/>
-                            <coord x="-136615" y="-261161"/>
-                            <coord x="-128713" y="-260521" flags="18"/>
+                        <coords count="6">
+                            <coord x="-4564" y="-266424"/>
+                            <coord x="-5204" y="-264344"/>
+                            <coord x="-4084" y="-262585"/>
+                            <coord x="-1684" y="-260345"/>
+                            <coord x="876" y="-264344"/>
+                            <coord x="-4564" y="-266424" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
                     <object type="1" symbol="49">
-                        <coords count="22">
-                            <coord x="-130021" y="-204426"/>
-                            <coord x="-127439" y="-206249"/>
-                            <coord x="-124250" y="-206856"/>
-                            <coord x="-122123" y="-205034"/>
-                            <coord x="-121212" y="-203363"/>
-                            <coord x="-119997" y="-196832"/>
-                            <coord x="-112555" y="-191061"/>
-                            <coord x="-109821" y="-194099"/>
-                            <coord x="-107999" y="-198655"/>
-                            <coord x="-109062" y="-202604"/>
-                            <coord x="-111796" y="-204123"/>
-                            <coord x="-115744" y="-204275"/>
-                            <coord x="-117111" y="-203971"/>
-                            <coord x="-118782" y="-205793"/>
-                            <coord x="-121212" y="-208679"/>
-                            <coord x="-123642" y="-209590"/>
-                            <coord x="-126528" y="-211717"/>
-                            <coord x="-127287" y="-217032"/>
-                            <coord x="-129717" y="-216121"/>
-                            <coord x="-132147" y="-215210"/>
-                            <coord x="-131844" y="-205186"/>
-                            <coord x="-130021" y="-204426" flags="18"/>
+                        <coords count="9">
+                            <coord x="-194146" y="-259965"/>
+                            <coord x="-191251" y="-259087"/>
+                            <coord x="-190198" y="-257333"/>
+                            <coord x="-190812" y="-255051"/>
+                            <coord x="-192216" y="-254262"/>
+                            <coord x="-193620" y="-254174"/>
+                            <coord x="-194234" y="-254876"/>
+                            <coord x="-194848" y="-257333"/>
+                            <coord x="-194146" y="-259965" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="49">
+                        <coords count="23">
+                            <coord x="-41527" y="-284864"/>
+                            <coord x="-43569" y="-280343"/>
+                            <coord x="-43715" y="-272320"/>
+                            <coord x="-42402" y="-268965"/>
+                            <coord x="-38755" y="-264881"/>
+                            <coord x="-32775" y="-262839"/>
+                            <coord x="-26065" y="-261526"/>
+                            <coord x="-16552" y="-259484"/>
+                            <coord x="-14434" y="-258727"/>
+                            <coord x="-13865" y="-257047"/>
+                            <coord x="-14609" y="-254130"/>
+                            <coord x="-51591" y="-261381"/>
+                            <coord x="-51883" y="-266632"/>
+                            <coord x="-49987" y="-269549"/>
+                            <coord x="-49695" y="-273487"/>
+                            <coord x="-50278" y="-278009"/>
+                            <coord x="-51883" y="-280926"/>
+                            <coord x="-53196" y="-283114"/>
+                            <coord x="-53050" y="-284427"/>
+                            <coord x="-50424" y="-285594"/>
+                            <coord x="-47799" y="-286031"/>
+                            <coord x="-45173" y="-286760"/>
+                            <coord x="-41527" y="-284864" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="49">
+                        <coords count="28">
+                            <coord x="-74763" y="-223353"/>
+                            <coord x="-79299" y="-223528"/>
+                            <coord x="-82091" y="-226319"/>
+                            <coord x="-84010" y="-232425"/>
+                            <coord x="-85754" y="-238357"/>
+                            <coord x="-87499" y="-243765"/>
+                            <coord x="-87499" y="-248650"/>
+                            <coord x="-91163" y="-251965"/>
+                            <coord x="-96920" y="-252838"/>
+                            <coord x="-101631" y="-251442"/>
+                            <coord x="-105294" y="-250046"/>
+                            <coord x="-112622" y="-251093"/>
+                            <coord x="-115762" y="-253012"/>
+                            <coord x="-116286" y="-255106"/>
+                            <coord x="-114715" y="-256850"/>
+                            <coord x="-111575" y="-259293"/>
+                            <coord x="-110513" y="-259092"/>
+                            <coord x="-109585" y="-258036"/>
+                            <coord x="-109600" y="-256774"/>
+                            <coord x="-109119" y="-255740"/>
+                            <coord x="-108310" y="-255156"/>
+                            <coord x="-107365" y="-255160"/>
+                            <coord x="-106417" y="-255767"/>
+                            <coord x="-105927" y="-257048"/>
+                            <coord x="-105913" y="-257817"/>
+                            <coord x="-105281" y="-258572"/>
+                            <coord x="-77554" y="-256850"/>
+                            <coord x="-74763" y="-223353" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -4187,304 +4414,51 @@ Saat geplant</text>
                         </pattern>
                     </object>
                     <object type="1" symbol="49">
-                        <coords count="28">
-                            <coord x="-74763" y="-223353"/>
-                            <coord x="-79299" y="-223528"/>
-                            <coord x="-82091" y="-226319"/>
-                            <coord x="-84010" y="-232425"/>
-                            <coord x="-85754" y="-238357"/>
-                            <coord x="-87499" y="-243765"/>
-                            <coord x="-87499" y="-248650"/>
-                            <coord x="-91163" y="-251965"/>
-                            <coord x="-96920" y="-252838"/>
-                            <coord x="-101631" y="-251442"/>
-                            <coord x="-105294" y="-250046"/>
-                            <coord x="-112622" y="-251093"/>
-                            <coord x="-115762" y="-253012"/>
-                            <coord x="-116286" y="-255106"/>
-                            <coord x="-114715" y="-256850"/>
-                            <coord x="-111575" y="-259293"/>
-                            <coord x="-110513" y="-259092"/>
-                            <coord x="-109585" y="-258036"/>
-                            <coord x="-109600" y="-256774"/>
-                            <coord x="-109119" y="-255740"/>
-                            <coord x="-108310" y="-255156"/>
-                            <coord x="-107365" y="-255160"/>
-                            <coord x="-106417" y="-255767"/>
-                            <coord x="-105927" y="-257048"/>
-                            <coord x="-105913" y="-257817"/>
-                            <coord x="-105281" y="-258572"/>
-                            <coord x="-77554" y="-256850"/>
-                            <coord x="-74763" y="-223353" flags="18"/>
+                        <coords count="22">
+                            <coord x="-130021" y="-204426"/>
+                            <coord x="-127439" y="-206249"/>
+                            <coord x="-124250" y="-206856"/>
+                            <coord x="-122123" y="-205034"/>
+                            <coord x="-121212" y="-203363"/>
+                            <coord x="-119997" y="-196832"/>
+                            <coord x="-112555" y="-191061"/>
+                            <coord x="-109821" y="-194099"/>
+                            <coord x="-107999" y="-198655"/>
+                            <coord x="-109062" y="-202604"/>
+                            <coord x="-111796" y="-204123"/>
+                            <coord x="-115744" y="-204275"/>
+                            <coord x="-117111" y="-203971"/>
+                            <coord x="-118782" y="-205793"/>
+                            <coord x="-121212" y="-208679"/>
+                            <coord x="-123642" y="-209590"/>
+                            <coord x="-126528" y="-211717"/>
+                            <coord x="-127287" y="-217032"/>
+                            <coord x="-129717" y="-216121"/>
+                            <coord x="-132147" y="-215210"/>
+                            <coord x="-131844" y="-205186"/>
+                            <coord x="-130021" y="-204426" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
                     <object type="1" symbol="49">
-                        <coords count="23">
-                            <coord x="-41527" y="-284864"/>
-                            <coord x="-43569" y="-280343"/>
-                            <coord x="-43715" y="-272320"/>
-                            <coord x="-42402" y="-268965"/>
-                            <coord x="-38755" y="-264881"/>
-                            <coord x="-32775" y="-262839"/>
-                            <coord x="-26065" y="-261526"/>
-                            <coord x="-16552" y="-259484"/>
-                            <coord x="-14434" y="-258727"/>
-                            <coord x="-13865" y="-257047"/>
-                            <coord x="-14609" y="-254130"/>
-                            <coord x="-51591" y="-261381"/>
-                            <coord x="-51883" y="-266632"/>
-                            <coord x="-49987" y="-269549"/>
-                            <coord x="-49695" y="-273487"/>
-                            <coord x="-50278" y="-278009"/>
-                            <coord x="-51883" y="-280926"/>
-                            <coord x="-53196" y="-283114"/>
-                            <coord x="-53050" y="-284427"/>
-                            <coord x="-50424" y="-285594"/>
-                            <coord x="-47799" y="-286031"/>
-                            <coord x="-45173" y="-286760"/>
-                            <coord x="-41527" y="-284864" flags="18"/>
+                        <coords count="11">
+                            <coord x="-128713" y="-260521"/>
+                            <coord x="-127218" y="-249843"/>
+                            <coord x="-127005" y="-245145"/>
+                            <coord x="-128072" y="-239592"/>
+                            <coord x="-128286" y="-233186"/>
+                            <coord x="-127859" y="-227633"/>
+                            <coord x="-128927" y="-224857"/>
+                            <coord x="-131062" y="-224430"/>
+                            <coord x="-132771" y="-224430"/>
+                            <coord x="-136615" y="-261161"/>
+                            <coord x="-128713" y="-260521" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
                         </pattern>
-                    </object>
-                    <object type="1" symbol="49">
-                        <coords count="9">
-                            <coord x="-194146" y="-259965"/>
-                            <coord x="-191251" y="-259087"/>
-                            <coord x="-190198" y="-257333"/>
-                            <coord x="-190812" y="-255051"/>
-                            <coord x="-192216" y="-254262"/>
-                            <coord x="-193620" y="-254174"/>
-                            <coord x="-194234" y="-254876"/>
-                            <coord x="-194848" y="-257333"/>
-                            <coord x="-194146" y="-259965" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="49">
-                        <coords count="5">
-                            <coord x="-291496" y="-48547" flags="32"/>
-                            <coord x="-279297" y="-48547" flags="32"/>
-                            <coord x="-279297" y="-43517" flags="32"/>
-                            <coord x="-291496" y="-43517" flags="32"/>
-                            <coord x="-291496" y="-48547" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Zwiebel</t>
-                            <t k="Sorte">Stuttgarter Riesen</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-193079" y="-302476"/>
-                            <coord x="-184765" y="-333341"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="29">
-                        <coords count="2">
-                            <coord x="-201623" y="-306132" flags="32"/>
-                            <coord x="-194706" y="-332629" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Knoblauch</t>
-                            <t k="Sorte">Moradol</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-218215" y="-261193" flags="32"/>
-                            <coord x="-195645" y="-255392" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <coords count="2">
-                            <coord x="-288188" y="-67647" flags="32"/>
-                            <coord x="-288152" y="-72058" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="15">
-                        <coords count="7">
-                            <coord x="-181568" y="-334718"/>
-                            <coord x="-190363" y="-301521"/>
-                            <coord x="-204645" y="-304737"/>
-                            <coord x="-196606" y="-335665"/>
-                            <coord x="-190174" y="-333962"/>
-                            <coord x="-189228" y="-336894"/>
-                            <coord x="-181568" y="-334718" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="17">
-                        <coords count="5">
-                            <coord x="-99322" y="-55479" flags="32"/>
-                            <coord x="-87123" y="-55479" flags="32"/>
-                            <coord x="-87123" y="-50449" flags="32"/>
-                            <coord x="-99322" y="-50449" flags="32"/>
-                            <coord x="-99322" y="-55479" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="16">
-                        <coords count="5">
-                            <coord x="-284740" y="-72576" flags="32"/>
-                            <coord x="-277025" y="-72575" flags="32"/>
-                            <coord x="-276971" y="-66798" flags="32"/>
-                            <coord x="-284905" y="-66901" flags="32"/>
-                            <coord x="-284740" y="-72576" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Knoblauch</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-217980" y="-259488" flags="32"/>
-                            <coord x="-202306" y="-255511" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="0" symbol="30">
-                        <tags>
-                            <t k="Art">Pfingstrose</t>
-                        </tags>
-                        <coords count="1">
-                            <coord x="-107811" y="-256815"/>
-                        </coords>
-                    </object>
-                    <object type="1" symbol="13">
-                        <coords count="8">
-                            <coord x="-109454" y="-188479" flags="32"/>
-                            <coord x="-131676" y="-205089" flags="32"/>
-                            <coord x="-136727" y="-261522" flags="32"/>
-                            <coord x="-110767" y="-259597"/>
-                            <coord x="-105091" y="-259178"/>
-                            <coord x="-77420" y="-257124" flags="32"/>
-                            <coord x="-73630" y="-215566" flags="32"/>
-                            <coord x="-109454" y="-188479" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Salat</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-260829" y="-261453" flags="32"/>
-                            <coord x="-260387" y="-263094" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="28">
-                        <coords count="2">
-                            <coord x="-197395" y="-304778" flags="32"/>
-                            <coord x="-190278" y="-331316" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="0" symbol="34">
-                        <coords count="1">
-                            <coord x="-167246" y="-254128"/>
-                        </coords>
-                    </object>
-                    <object type="1" symbol="15">
-                        <tags>
-                            <t k="Art">Petersilie</t>
-                        </tags>
-                        <coords count="8">
-                            <coord x="-163816" y="-263029"/>
-                            <coord x="-164244" y="-260360"/>
-                            <coord x="-167020" y="-258544"/>
-                            <coord x="-168301" y="-259719"/>
-                            <coord x="-168301" y="-262388"/>
-                            <coord x="-166272" y="-263456"/>
-                            <coord x="-165205" y="-263670"/>
-                            <coord x="-163816" y="-263029" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="0" symbol="34">
-                        <coords count="1">
-                            <coord x="-160984" y="-264258"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="18">
-                        <coords count="1">
-                            <coord x="-247505" y="-349063"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="24">
-                        <coords count="1">
-                            <coord x="-27602" y="-274583"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="24">
-                        <coords count="1">
-                            <coord x="-8884" y="-265464"/>
-                        </coords>
-                    </object>
-                    <object type="0" symbol="24">
-                        <coords count="1">
-                            <coord x="-17683" y="-269624"/>
-                        </coords>
-                    </object>
-                    <object type="1" symbol="49">
-                        <coords count="6">
-                            <coord x="-4564" y="-266424"/>
-                            <coord x="-5204" y="-264344"/>
-                            <coord x="-4084" y="-262585"/>
-                            <coord x="-1684" y="-260345"/>
-                            <coord x="876" y="-264344"/>
-                            <coord x="-4564" y="-266424" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="0" symbol="18">
-                        <tags>
-                            <t k="Art">Rabarber</t>
-                        </tags>
-                        <coords count="1">
-                            <coord x="-9630" y="-256730"/>
-                        </coords>
                     </object>
                 </objects>
             </part>
@@ -4581,7 +4555,7 @@ Saat geplant</text>
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="-0.44" unit="1" h_spacing="1" v_spacing="1" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="0.483903" position_x="-204980" position_y="-222558">
+            <map_view zoom="0.609679" position_x="-187805" position_y="-249716">
                 <map opacity="1" visible="true"/>
                 <templates count="1">
                     <ref template="0" opacity="1"/>
@@ -5106,6 +5080,136 @@ Lavendel
                         <t k="Art">Salbei</t>
                     </ref>
                 </affected_objects>
+            </step>
+            <step type="8">
+                <change type="2" part="1"/>
+            </step>
+            <step type="10">
+                <affected_objects part="0" count="83">
+                    <ref object="363"/>
+                    <ref object="361"/>
+                    <ref object="360"/>
+                    <ref object="359"/>
+                    <ref object="358"/>
+                    <ref object="357"/>
+                    <ref object="356"/>
+                    <ref object="355"/>
+                    <ref object="354"/>
+                    <ref object="353"/>
+                    <ref object="351"/>
+                    <ref object="350"/>
+                    <ref object="349"/>
+                    <ref object="348"/>
+                    <ref object="347"/>
+                    <ref object="346"/>
+                    <ref object="345"/>
+                    <ref object="344"/>
+                    <ref object="343"/>
+                    <ref object="335"/>
+                    <ref object="334"/>
+                    <ref object="333"/>
+                    <ref object="332"/>
+                    <ref object="331"/>
+                    <ref object="330"/>
+                    <ref object="329"/>
+                    <ref object="328"/>
+                    <ref object="327"/>
+                    <ref object="326"/>
+                    <ref object="325"/>
+                    <ref object="324"/>
+                    <ref object="323"/>
+                    <ref object="322"/>
+                    <ref object="321"/>
+                    <ref object="320"/>
+                    <ref object="319"/>
+                    <ref object="318"/>
+                    <ref object="317"/>
+                    <ref object="316"/>
+                    <ref object="315"/>
+                    <ref object="314"/>
+                    <ref object="313"/>
+                    <ref object="312"/>
+                    <ref object="311"/>
+                    <ref object="310"/>
+                    <ref object="307"/>
+                    <ref object="306"/>
+                    <ref object="305"/>
+                    <ref object="304"/>
+                    <ref object="303"/>
+                    <ref object="302"/>
+                    <ref object="301"/>
+                    <ref object="300"/>
+                    <ref object="299"/>
+                    <ref object="298"/>
+                    <ref object="297"/>
+                    <ref object="296"/>
+                    <ref object="295"/>
+                    <ref object="294"/>
+                    <ref object="245"/>
+                    <ref object="242"/>
+                    <ref object="240"/>
+                    <ref object="239"/>
+                    <ref object="238"/>
+                    <ref object="237"/>
+                    <ref object="236"/>
+                    <ref object="234"/>
+                    <ref object="232"/>
+                    <ref object="229"/>
+                    <ref object="228"/>
+                    <ref object="227"/>
+                    <ref object="226"/>
+                    <ref object="225"/>
+                    <ref object="224"/>
+                    <ref object="220"/>
+                    <ref object="202"/>
+                    <ref object="135"/>
+                    <ref object="88"/>
+                    <ref object="87"/>
+                    <ref object="86"/>
+                    <ref object="85"/>
+                    <ref object="84"/>
+                    <ref object="83"/>
+                </affected_objects>
+                <source part="1"/>
+            </step>
+            <step type="8">
+                <change type="3" part="0" name="default part"/>
+            </step>
+            <step type="10">
+                <affected_objects part="0">
+                    <ref object="280"/>
+                    <ref object="278"/>
+                    <ref object="277"/>
+                    <ref object="276"/>
+                    <ref object="275"/>
+                    <ref object="274"/>
+                    <ref object="273"/>
+                    <ref object="272"/>
+                </affected_objects>
+                <source part="1"/>
+            </step>
+            <step type="10">
+                <affected_objects part="1" count="10">
+                    <ref object="84"/>
+                    <ref object="76"/>
+                    <ref object="75"/>
+                    <ref object="61"/>
+                    <ref object="60"/>
+                    <ref object="56"/>
+                    <ref object="55"/>
+                    <ref object="46"/>
+                    <ref object="15"/>
+                    <ref object="12"/>
+                </affected_objects>
+                <source part="0"/>
+            </step>
+            <step type="10">
+                <affected_objects part="1">
+                    <ref object="60"/>
+                    <ref object="59"/>
+                    <ref object="12"/>
+                </affected_objects>
+                <source part="0"/>
             </step>
         </undo>
         <redo/>
