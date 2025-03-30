@@ -3949,7 +3949,8 @@ Saat geplant</text>
                     </object>
                     <object type="0" symbol="34">
                         <tags>
-                            <t k="Art"></t>
+                            <t k="Art">Salbei</t>
+                            <t k="Sortiment">Muskatella</t>
                         </tags>
                         <coords count="1">
                             <coord x="-185349" y="-283739"/>
@@ -4580,7 +4581,7 @@ Saat geplant</text>
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="-0.44" unit="1" h_spacing="1" v_spacing="1" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="0.448897" position_x="-157110" position_y="-109338">
+            <map_view zoom="1.77496" position_x="-169104" position_y="-268433">
                 <map opacity="1" visible="true"/>
                 <templates count="1">
                     <ref template="0" opacity="1"/>
@@ -5091,6 +5092,20 @@ Lavendel
                         </coords>
                     </object>
                 </contained_objects>
+            </step>
+            <step type="7">
+                <affected_objects part="0">
+                    <ref object="323">
+                        <t k="Art"></t>
+                    </ref>
+                </affected_objects>
+            </step>
+            <step type="7">
+                <affected_objects part="0">
+                    <ref object="323">
+                        <t k="Art">Salbei</t>
+                    </ref>
+                </affected_objects>
             </step>
         </undo>
         <redo/>
