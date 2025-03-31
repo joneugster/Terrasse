@@ -79,7 +79,7 @@
         </color>
     </colors>
     <barrier version="6" required="0.6.0">
-        <symbols count="50">
+        <symbols count="51">
             <symbol type="2" id="0" code="0.1" name="Helper" is_helper_symbol="true" is_hidden="true">
                 <line_symbol color="0" line_width="100" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0"/>
             </symbol>
@@ -454,7 +454,10 @@
                     </pattern>
                 </area_symbol>
             </symbol>
-            <symbol type="1" id="34" code="12" name="Kräuter">
+            <symbol type="1" id="34" code="6.4" name="Einzelpflanze">
+                <point_symbol inner_radius="750" inner_color="13" outer_width="0" outer_color="-1" elements="0"/>
+            </symbol>
+            <symbol type="1" id="35" code="12" name="Kräuter">
                 <point_symbol inner_radius="2000" inner_color="-1" outer_width="10" outer_color="-1" elements="3">
                     <element>
                         <symbol type="2" code="">
@@ -500,7 +503,7 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="35" code="15" name="Wasserhahn">
+            <symbol type="1" id="36" code="15" name="Wasserhahn">
                 <point_symbol rotatable="true" inner_radius="0" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="2" code="">
@@ -532,13 +535,13 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="1" id="36" code="40" name="Topf">
+            <symbol type="1" id="37" code="40" name="Topf">
                 <point_symbol inner_radius="2200" inner_color="3" outer_width="800" outer_color="8" elements="0"/>
             </symbol>
-            <symbol type="1" id="37" code="40.1" name="Topf: Sezuan">
+            <symbol type="1" id="38" code="40.1" name="Topf: Sezuan">
                 <point_symbol inner_radius="2200" inner_color="3" outer_width="800" outer_color="8" elements="0"/>
             </symbol>
-            <symbol type="2" id="38" code="50" name="Pfad">
+            <symbol type="2" id="39" code="50" name="Pfad">
                 <line_symbol color="-1" line_width="15000" minimum_length="0" join_style="1" cap_style="1" start_offset="0" end_offset="0" segment_length="8000" end_length="6000" minimum_mid_symbol_count="1" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="0" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0" scale_dash_symbol="false">
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
@@ -584,7 +587,7 @@
                 </line_symbol>
 <icon src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAw0lEQVRYhe3WsQnFIBCAYe/xEGziACldJwsIKRzBAdJnh2xg4QIGskYgdWYISERfJ+E1ISAkkLvyR/2aK4QYI7ljPreoCCOMMMIII/xI+Hv1wjzPfwUAUkrHUtd1VVUlYWNM13Wc81y2bQMAxlguIQQhhLW2JLwsi5RSKZXLOI7TNPV9n8u6rlrr06fet1zvg+HS99Y517YtpTSXfd9DCMetjjE2TTMMQ0mYEOK9Pz1DKQWAwnCped9yIYwwwggj/Hz4B39KPvA/BXHaAAAAAElFTkSuQmCC"/>
             </symbol>
-            <symbol type="1" id="39" code="50.1" name="Trittstein">
+            <symbol type="1" id="40" code="50.1" name="Trittstein">
                 <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="2" code="">
@@ -621,7 +624,7 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="2" id="40" code="51" name="Schirm">
+            <symbol type="2" id="41" code="51" name="Schirm">
                 <line_symbol color="7" line_width="750" minimum_length="0" join_style="1" cap_style="0" start_offset="900" end_offset="0" dashed="true" segment_length="4000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="750" break_length="750" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <start_symbol>
                         <symbol type="1" code="" name="Start symbol">
@@ -630,7 +633,7 @@
                     </start_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="41" code="52" name="Sitzbank">
+            <symbol type="1" id="42" code="52" name="Sitzbank">
                 <point_symbol rotatable="true" inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="2">
                     <element>
                         <symbol type="2" code="">
@@ -667,25 +670,25 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="8" id="42" code="100.1" name="Titel">
+            <symbol type="8" id="43" code="100.1" name="Titel">
                 <text_symbol icon_text="" rotatable="true">
                     <font family="Arial" size="16933" bold="true"/>
                     <text color="2" line_spacing="1" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="8" id="43" code="100.2" name="Untertitel">
+            <symbol type="8" id="44" code="100.2" name="Untertitel">
                 <text_symbol icon_text="" rotatable="true">
                     <font family="Arial" size="11289" bold="true"/>
                     <text color="2" line_spacing="1" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="8" id="44" code="100.3" name="Infotext">
+            <symbol type="8" id="45" code="100.3" name="Infotext">
                 <text_symbol icon_text="" rotatable="true">
                     <font family="Arial" size="8467"/>
                     <text color="2" line_spacing="1.2" paragraph_spacing="0" character_spacing="0" kerning="true"/>
                 </text_symbol>
             </symbol>
-            <symbol type="2" id="45" code="101" name="Bohnentipi">
+            <symbol type="2" id="46" code="101" name="Bohnentipi">
                 <line_symbol color="8" line_width="1600" minimum_length="0" join_style="1" cap_style="0" start_offset="0" end_offset="0" segment_length="10000" end_length="0" show_at_least_one_symbol="true" minimum_mid_symbol_count="0" minimum_mid_symbol_count_when_closed="0" dash_length="4000" break_length="1000" dashes_in_group="1" in_group_break_length="500" mid_symbols_per_spot="1" mid_symbol_distance="0">
                     <mid_symbol>
                         <symbol type="1" code="" name="Mid symbol">
@@ -709,7 +712,7 @@
                     </mid_symbol>
                 </line_symbol>
             </symbol>
-            <symbol type="1" id="46" code="101" name="Nordpfeil">
+            <symbol type="1" id="47" code="101" name="Nordpfeil">
                 <point_symbol inner_radius="1000" inner_color="-1" outer_width="0" outer_color="-1" elements="4">
                     <element>
                         <symbol type="2" code="">
@@ -789,7 +792,7 @@
                     </element>
                 </point_symbol>
             </symbol>
-            <symbol type="16" id="47" code="102" name="Massstab">
+            <symbol type="16" id="48" code="102" name="Massstab">
                 <combined_symbol parts="2">
                     <part private="true">
                         <symbol type="2" code="102.1" name="Masstab - Streifen">
@@ -803,11 +806,11 @@
                     </part>
                 </combined_symbol>
             </symbol>
-            <symbol type="4" id="48" code="520" name="Verbotenes Gebiet">
+            <symbol type="4" id="49" code="520" name="Verbotenes Gebiet">
                 <description>ISSprOM</description>
                 <area_symbol inner_color="10" min_area="0" patterns="0"/>
             </symbol>
-            <symbol type="4" id="49" code="13.0" name="Lavendel">
+            <symbol type="4" id="50" code="13.0" name="Lavendel">
                 <area_symbol inner_color="5" min_area="0" patterns="0"/>
             </symbol>
         </symbols>
@@ -1244,7 +1247,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="40">
+                    <object type="1" symbol="41">
                         <coords count="2">
                             <coord x="-261843" y="-268076" flags="32"/>
                             <coord x="-272959" y="-271071" flags="48"/>
@@ -1289,7 +1292,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="40">
+                    <object type="1" symbol="41">
                         <coords count="2">
                             <coord x="-100307" y="-283142" flags="32"/>
                             <coord x="-87207" y="-316793" flags="32"/>
@@ -1325,22 +1328,22 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="41" rotation="-0.364322">
+                    <object type="0" symbol="42" rotation="-0.364322">
                         <coords count="1">
                             <coord x="-89500" y="-284388"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="41" rotation="-0.471506">
+                    <object type="0" symbol="42" rotation="-0.471506">
                         <coords count="1">
                             <coord x="-253271" y="-227148"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="41" rotation="-1.78886">
+                    <object type="0" symbol="42" rotation="-1.78886">
                         <coords count="1">
                             <coord x="-164480" y="-220948"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="41" rotation="0.93028">
+                    <object type="0" symbol="42" rotation="0.93028">
                         <coords count="1">
                             <coord x="-123203" y="-194553"/>
                         </coords>
@@ -1532,7 +1535,7 @@
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="41" rotation="-0.925646">
+                    <object type="0" symbol="42" rotation="-0.925646">
                         <coords count="1">
                             <coord x="-87248" y="-201056"/>
                         </coords>
@@ -1596,18 +1599,18 @@
                             <coord x="-109152" y="-233056"/>
                         </coords>
                     </object>
-                    <object type="4" symbol="44" h_align="0" v_align="1">
+                    <object type="4" symbol="45" h_align="0" v_align="1">
                         <coords count="1">
                             <coord x="-83465" y="-364072"/>
                         </coords>
                         <text>Massstab: 1:150
 Kartierung: Jon Eugster
-Kartenversion: v0.1.1
-Letztes Update: 29.03.25
+Kartenversion: v0.1.2
+Letztes Update: 31.03.25
 
 </text>
                     </object>
-                    <object type="0" symbol="46">
+                    <object type="0" symbol="47">
                         <coords count="1">
                             <coord x="-35488" y="-133034"/>
                         </coords>
@@ -1846,7 +1849,7 @@ Letztes Update: 29.03.25
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="48">
+                    <object type="1" symbol="49">
                         <coords count="6">
                             <coord x="-250004" y="-359341"/>
                             <coord x="-289844" y="-211855"/>
@@ -1859,7 +1862,7 @@ Letztes Update: 29.03.25
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="48">
+                    <object type="1" symbol="49">
                         <coords count="14">
                             <coord x="-72416" y="-137831"/>
                             <coord x="15800" y="-96217"/>
@@ -1880,7 +1883,7 @@ Letztes Update: 29.03.25
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="4" symbol="42" h_align="1" v_align="2">
+                    <object type="4" symbol="43" h_align="1" v_align="2">
                         <coords count="1">
                             <coord x="-77596" y="-378046"/>
                         </coords>
@@ -2031,7 +2034,7 @@ Letztes Update: 29.03.25
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="4" symbol="44" h_align="0" v_align="1">
+                    <object type="4" symbol="45" h_align="0" v_align="1">
                         <coords count="1">
                             <coord x="-275534" y="-168238"/>
                         </coords>
@@ -2049,7 +2052,7 @@ Lavendel
 
 </text>
                     </object>
-                    <object type="4" symbol="43" h_align="0" v_align="3">
+                    <object type="4" symbol="44" h_align="0" v_align="3">
                         <coords count="1">
                             <coord x="-290259" y="-176090"/>
                         </coords>
@@ -2064,7 +2067,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-291610" y="-163166" flags="32"/>
                             <coord x="-282720" y="-163142" flags="32"/>
@@ -2122,7 +2125,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="47">
+                    <object type="1" symbol="48">
                         <coords count="2">
                             <coord x="2190" y="-285171"/>
                             <coord x="-43946" y="-306935"/>
@@ -2131,7 +2134,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="4" symbol="44" rotation="5.84069" h_align="1" v_align="2">
+                    <object type="4" symbol="45" rotation="5.84069" h_align="1" v_align="2">
                         <coords count="1">
                             <coord x="-17278" y="-303978"/>
                         </coords>
@@ -2155,7 +2158,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-246878" y="-267188" flags="32"/>
                             <coord x="-270899" y="-273079" flags="32"/>
@@ -2164,7 +2167,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-235123" y="-306153" flags="32"/>
                             <coord x="-224938" y="-345415" flags="32"/>
@@ -2173,7 +2176,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-220613" y="-302860" flags="32"/>
                             <coord x="-211354" y="-338406" flags="32"/>
@@ -2182,7 +2185,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-204540" y="-305423" flags="32"/>
                             <coord x="-196921" y="-335066" flags="32"/>
@@ -2675,7 +2678,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-243144" y="-281656" flags="32"/>
                             <coord x="-266958" y="-287475" flags="32"/>
@@ -2684,7 +2687,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-239147" y="-295895" flags="32"/>
                             <coord x="-263065" y="-301610" flags="32"/>
@@ -2693,7 +2696,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-234978" y="-309992" flags="32"/>
                             <coord x="-259251" y="-316104" flags="32"/>
@@ -2702,7 +2705,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-231265" y="-324529" flags="32"/>
                             <coord x="-255433" y="-330584" flags="32"/>
@@ -2711,7 +2714,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-148622" y="-281289" flags="32"/>
                             <coord x="-185388" y="-292903" flags="32"/>
@@ -2720,7 +2723,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-181658" y="-334254" flags="32"/>
                             <coord x="-191830" y="-295688" flags="32"/>
@@ -2729,7 +2732,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-178664" y="-292060" flags="32"/>
                             <coord x="-168528" y="-330571" flags="32"/>
@@ -2738,7 +2741,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-228219" y="-335891" flags="32"/>
                             <coord x="-252387" y="-341946" flags="32"/>
@@ -2761,7 +2764,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="40">
+                    <object type="1" symbol="41">
                         <coords count="2">
                             <coord x="-159683" y="-209867"/>
                             <coord x="-169580" y="-180808"/>
@@ -2770,7 +2773,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="3">
                             <coord x="-238158" y="-232137"/>
                             <coord x="-240042" y="-226678"/>
@@ -2780,7 +2783,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-223808" y="-229310"/>
                             <coord x="-232722" y="-203455"/>
@@ -2789,7 +2792,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-209531" y="-225148"/>
                             <coord x="-218001" y="-200181"/>
@@ -2798,7 +2801,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-195259" y="-221431"/>
                             <coord x="-203289" y="-197045"/>
@@ -2807,7 +2810,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-180680" y="-218174"/>
                             <coord x="-188713" y="-193630"/>
@@ -2816,7 +2819,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-165814" y="-215934"/>
                             <coord x="-174289" y="-189912"/>
@@ -2825,21 +2828,21 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="39">
+                    <object type="0" symbol="40">
                         <coords count="1">
                             <coord x="-194049" y="-249549"/>
                         </coords>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
-                            <coord x="-112216" y="-277629" flags="32"/>
-                            <coord x="-105821" y="-300572" flags="48"/>
+                            <coord x="-112299" y="-277298" flags="32"/>
+                            <coord x="-105692" y="-300895" flags="48"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="3">
                             <coord x="-95075" y="-309166" flags="32"/>
                             <coord x="-99375" y="-299379"/>
@@ -2849,7 +2852,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-165565" y="-289254" flags="32"/>
                             <coord x="-159299" y="-312456" flags="32"/>
@@ -2858,7 +2861,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-152404" y="-285537" flags="32"/>
                             <coord x="-145496" y="-309168" flags="32"/>
@@ -2867,7 +2870,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-140791" y="-281047" flags="32"/>
                             <coord x="-132894" y="-306811" flags="32"/>
@@ -2876,7 +2879,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-126313" y="-279127" flags="32"/>
                             <coord x="-119535" y="-302545" flags="32"/>
@@ -2894,7 +2897,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="45">
+                    <object type="1" symbol="46">
                         <coords count="2">
                             <coord x="-165520" y="-324874" flags="32"/>
                             <coord x="-100718" y="-306468" flags="32"/>
@@ -2903,7 +2906,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="45">
+                    <object type="1" symbol="46">
                         <coords count="2">
                             <coord x="-290083" y="-128888" flags="32"/>
                             <coord x="-279353" y="-129035" flags="32"/>
@@ -2939,7 +2942,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="4" symbol="44" h_align="0" v_align="1">
+                    <object type="4" symbol="45" h_align="0" v_align="1">
                         <coords count="1">
                             <coord x="-83416" y="-93140"/>
                         </coords>
@@ -2960,7 +2963,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="40">
+                    <object type="1" symbol="41">
                         <coords count="2">
                             <coord x="-289162" y="-152035"/>
                             <coord x="-278728" y="-152035"/>
@@ -2993,7 +2996,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="39">
+                    <object type="0" symbol="40">
                         <coords count="1">
                             <coord x="-280664" y="-163104"/>
                         </coords>
@@ -3462,12 +3465,12 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="39" rotation="-0.28269">
+                    <object type="0" symbol="40" rotation="-0.28269">
                         <coords count="1">
                             <coord x="-158100" y="-200470"/>
                         </coords>
                     </object>
-                    <object type="1" symbol="38">
+                    <object type="1" symbol="39">
                         <coords count="2">
                             <coord x="-155378" y="-190265"/>
                             <coord x="-163135" y="-192306"/>
@@ -3491,7 +3494,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="5">
                             <coord x="-291496" y="-48547" flags="32"/>
                             <coord x="-279297" y="-48547" flags="32"/>
@@ -3507,18 +3510,6 @@ Saat geplant</text>
                         <coords count="1">
                             <coord x="-287152" y="-116809"/>
                         </coords>
-                    </object>
-                    <object type="1" symbol="15">
-                        <coords count="5">
-                            <coord x="-290655" y="-94593" flags="32"/>
-                            <coord x="-278456" y="-94593" flags="32"/>
-                            <coord x="-278456" y="-89563" flags="32"/>
-                            <coord x="-290655" y="-89563" flags="32"/>
-                            <coord x="-290655" y="-94593" flags="50"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
                     </object>
                     <object type="0" symbol="31">
                         <coords count="1">
@@ -3554,15 +3545,15 @@ Saat geplant</text>
                             <coord x="-280949" y="-116891"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <coords count="1">
                             <coord x="-284608" y="-58551"/>
                         </coords>
                     </object>
                     <object type="1" symbol="28">
                         <coords count="2">
-                            <coord x="-288188" y="-67647" flags="32"/>
-                            <coord x="-288152" y="-72058" flags="32"/>
+                            <coord x="-289152" y="-67707" flags="32"/>
+                            <coord x="-289116" y="-72118" flags="32"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -3570,11 +3561,11 @@ Saat geplant</text>
                     </object>
                     <object type="1" symbol="16">
                         <coords count="5">
-                            <coord x="-284740" y="-72576" flags="32"/>
-                            <coord x="-277025" y="-72575" flags="32"/>
-                            <coord x="-276971" y="-66798" flags="32"/>
-                            <coord x="-284905" y="-66901" flags="32"/>
-                            <coord x="-284740" y="-72576" flags="50"/>
+                            <coord x="-284680" y="-72576" flags="32"/>
+                            <coord x="-276965" y="-72575" flags="32"/>
+                            <coord x="-276911" y="-66798" flags="32"/>
+                            <coord x="-284845" y="-66901" flags="32"/>
+                            <coord x="-284680" y="-72576" flags="50"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -3609,10 +3600,15 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
+                    <object type="0" symbol="34">
+                        <coords count="1">
+                            <coord x="-286682" y="-69939"/>
+                        </coords>
+                    </object>
                 </objects>
             </part>
             <part name="pflanzen">
-                <objects count="78">
+                <objects count="94">
                     <object type="0" symbol="18">
                         <tags>
                             <t k="Art">Rabarber</t>
@@ -3636,12 +3632,12 @@ Saat geplant</text>
                             <coord x="-27602" y="-274583"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="18">
+                    <object type="0" symbol="24">
                         <coords count="1">
-                            <coord x="-247505" y="-349063"/>
+                            <coord x="-248878" y="-347804"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <coords count="1">
                             <coord x="-160984" y="-264258"/>
                         </coords>
@@ -3664,7 +3660,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <coords count="1">
                             <coord x="-167246" y="-254128"/>
                         </coords>
@@ -3732,15 +3728,6 @@ Saat geplant</text>
                         <coords count="2">
                             <coord x="-218215" y="-261193" flags="32"/>
                             <coord x="-195645" y="-255392" flags="32"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="29">
-                        <coords count="2">
-                            <coord x="-201623" y="-306132" flags="32"/>
-                            <coord x="-194706" y="-332629" flags="32"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -3902,7 +3889,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <tags>
                             <t k="Art">Salbei</t>
                             <t k="Sortiment">Muskatella</t>
@@ -3911,22 +3898,22 @@ Saat geplant</text>
                             <coord x="-185349" y="-283739"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <coords count="1">
                             <coord x="-161846" y="-271962"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <coords count="1">
                             <coord x="-159868" y="-275654"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <coords count="1">
                             <coord x="-157659" y="-279250"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <tags>
                             <t k="Art">Liebstöckel</t>
                         </tags>
@@ -4036,7 +4023,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <tags>
                             <t k="Art">Bohnenkraut</t>
                         </tags>
@@ -4044,7 +4031,7 @@ Saat geplant</text>
                             <coord x="-146427" y="-281199"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <tags>
                             <t k="Art">Oregano</t>
                         </tags>
@@ -4052,7 +4039,7 @@ Saat geplant</text>
                             <coord x="-151876" y="-278780"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <tags>
                             <t k="Art">Oregano</t>
                         </tags>
@@ -4060,7 +4047,7 @@ Saat geplant</text>
                             <coord x="-154182" y="-275201"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <tags>
                             <t k="Art">Rosmarin</t>
                         </tags>
@@ -4068,7 +4055,7 @@ Saat geplant</text>
                             <coord x="-156488" y="-271425"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <tags>
                             <t k="Art">Thymian</t>
                         </tags>
@@ -4076,7 +4063,7 @@ Saat geplant</text>
                             <coord x="-158661" y="-267801"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <tags>
                             <t k="Art">Franz.  Estragon</t>
                         </tags>
@@ -4084,7 +4071,7 @@ Saat geplant</text>
                             <coord x="-163044" y="-260808"/>
                         </coords>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <coords count="1">
                             <coord x="-165105" y="-257413"/>
                         </coords>
@@ -4131,19 +4118,6 @@ Saat geplant</text>
                             <coord x="-219543" y="-263389"/>
                             <coord x="-222557" y="-248530"/>
                             <coord x="-204314" y="-244565" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                    <object type="1" symbol="15">
-                        <coords count="6">
-                            <coord x="-246974" y="-206805"/>
-                            <coord x="-237676" y="-234044"/>
-                            <coord x="-245010" y="-235484"/>
-                            <coord x="-258891" y="-209097"/>
-                            <coord x="-247432" y="-206478"/>
-                            <coord x="-246974" y="-206805" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -4279,7 +4253,7 @@ Saat geplant</text>
                             <coord x="-168320" y="-277709"/>
                         </coords>
                     </object>
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="6">
                             <coord x="-4564" y="-266424"/>
                             <coord x="-5204" y="-264344"/>
@@ -4292,7 +4266,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="9">
                             <coord x="-194146" y="-259965"/>
                             <coord x="-191251" y="-259087"/>
@@ -4308,7 +4282,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="23">
                             <coord x="-41527" y="-284864"/>
                             <coord x="-43569" y="-280343"/>
@@ -4338,7 +4312,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="28">
                             <coord x="-74763" y="-223353"/>
                             <coord x="-79299" y="-223528"/>
@@ -4373,7 +4347,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="33">
                             <coord x="-102707" y="-237259"/>
                             <coord x="-100143" y="-236028"/>
@@ -4413,7 +4387,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="22">
                             <coord x="-130021" y="-204426"/>
                             <coord x="-127439" y="-206249"/>
@@ -4442,7 +4416,7 @@ Saat geplant</text>
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="11">
                             <coord x="-128713" y="-260521"/>
                             <coord x="-127218" y="-249843"/>
@@ -4455,6 +4429,198 @@ Saat geplant</text>
                             <coord x="-132771" y="-224430"/>
                             <coord x="-136615" y="-261161"/>
                             <coord x="-128713" y="-260521" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="29">
+                        <coords count="2">
+                            <coord x="-195096" y="-303684"/>
+                            <coord x="-187039" y="-333946"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="29">
+                        <coords count="2">
+                            <coord x="-199577" y="-305211"/>
+                            <coord x="-192562" y="-331931"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-226404" y="-305552"/>
+                            <coord x="-217634" y="-338258"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="29">
+                        <tags>
+                            <t k="Art">Lauch</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-223372" y="-304859"/>
+                            <coord x="-214602" y="-337565"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="29">
+                        <tags>
+                            <t k="Art">Lauch</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-229153" y="-306279"/>
+                            <coord x="-220383" y="-338985"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="29">
+                        <coords count="2">
+                            <coord x="-231704" y="-230220"/>
+                            <coord x="-239599" y="-206966"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-228250" y="-229295"/>
+                            <coord x="-235220" y="-208693"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-235220" y="-231330"/>
+                            <coord x="-243115" y="-207767"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-243809" y="-216076"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-241363" y="-223244"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-238752" y="-230510"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="32">
+                        <tags>
+                            <t k="Art">Essbare Blüten</t>
+                        </tags>
+                        <coords count="11">
+                            <coord x="-175948" y="-250603"/>
+                            <coord x="-174762" y="-249078"/>
+                            <coord x="-173152" y="-248654"/>
+                            <coord x="-170609" y="-250603"/>
+                            <coord x="-169084" y="-253569"/>
+                            <coord x="-169931" y="-255264"/>
+                            <coord x="-171584" y="-256154"/>
+                            <coord x="-172728" y="-255773"/>
+                            <coord x="-173702" y="-254713"/>
+                            <coord x="-174847" y="-252891"/>
+                            <coord x="-175948" y="-250603" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="15">
+                        <tags>
+                            <t k="Art">Schnittlauch</t>
+                        </tags>
+                        <coords count="9">
+                            <coord x="-166703" y="-264333"/>
+                            <coord x="-164977" y="-264293"/>
+                            <coord x="-163762" y="-264042"/>
+                            <coord x="-162548" y="-266136"/>
+                            <coord x="-162631" y="-267058"/>
+                            <coord x="-164893" y="-267854"/>
+                            <coord x="-166862" y="-267477"/>
+                            <coord x="-166988" y="-266178"/>
+                            <coord x="-166703" y="-264333" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="0" symbol="24">
+                        <coords count="1">
+                            <coord x="-49213" y="-285616"/>
+                        </coords>
+                    </object>
+                    <object type="0" symbol="24">
+                        <coords count="1">
+                            <coord x="-155502" y="-191160"/>
+                        </coords>
+                    </object>
+                    <object type="1" symbol="15">
+                        <coords count="6">
+                            <coord x="-220939" y="-301257"/>
+                            <coord x="-210915" y="-339399"/>
+                            <coord x="-218393" y="-340507"/>
+                            <coord x="-221522" y="-341159"/>
+                            <coord x="-231220" y="-304134"/>
+                            <coord x="-220939" y="-301257" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="15">
+                        <coords count="5">
+                            <coord x="-290655" y="-94593" flags="32"/>
+                            <coord x="-278456" y="-94593" flags="32"/>
+                            <coord x="-278456" y="-89563" flags="32"/>
+                            <coord x="-290655" y="-89563" flags="32"/>
+                            <coord x="-290655" y="-94593" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                    <object type="1" symbol="15">
+                        <coords count="5">
+                            <coord x="-223372" y="-230805"/>
+                            <coord x="-233455" y="-202930"/>
+                            <coord x="-258891" y="-209097"/>
+                            <coord x="-245010" y="-235484"/>
+                            <coord x="-223372" y="-230805" flags="18"/>
                         </coords>
                         <pattern rotation="0">
                             <coord x="0" y="0"/>
@@ -4555,7 +4721,7 @@ Saat geplant</text>
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="-0.44" unit="1" h_spacing="1" v_spacing="1" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="0.609679" position_x="-187805" position_y="-249716">
+            <map_view zoom="0.381862" position_x="-214952" position_y="-127030">
                 <map opacity="1" visible="true"/>
                 <templates count="1">
                     <ref template="0" opacity="1"/>
@@ -4572,92 +4738,6 @@ Saat geplant</text>
     </barrier>
     <barrier version="6" required="0.6.0">
         <undo>
-            <step type="7">
-                <affected_objects part="0">
-                    <ref object="325"/>
-                </affected_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="336"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Asiasalat</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-219211" y="-256891"/>
-                            <coord x="-202743" y="-253204"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="336"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="28">
-                        <tags>
-                            <t k="Art">Asiasalat</t>
-                        </tags>
-                        <coords count="2">
-                            <coord x="-219211" y="-257144"/>
-                            <coord x="-202743" y="-253204"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="238"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="20">
-                        <coords count="5">
-                            <coord x="-251062" y="-352878"/>
-                            <coord x="-247437" y="-347278"/>
-                            <coord x="-217750" y="-340317"/>
-                            <coord x="-216489" y="-344312"/>
-                            <coord x="-251062" y="-352878" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="0">
-                <affected_objects part="0">
-                    <ref object="238"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="1" symbol="20">
-                        <coords count="5">
-                            <coord x="-243165" y="-351270"/>
-                            <coord x="-247437" y="-347278"/>
-                            <coord x="-217750" y="-340317"/>
-                            <coord x="-216489" y="-344312"/>
-                            <coord x="-243165" y="-351270" flags="18"/>
-                        </coords>
-                        <pattern rotation="0">
-                            <coord x="0" y="0"/>
-                        </pattern>
-                    </object>
-                </contained_objects>
-            </step>
-            <step type="1">
-                <affected_objects part="0">
-                    <ref object="360"/>
-                </affected_objects>
-            </step>
             <step type="1">
                 <affected_objects part="0">
                     <ref object="361"/>
@@ -4683,7 +4763,7 @@ Saat geplant</text>
                     <ref object="342"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="23">
                             <coord x="-41527" y="-284864"/>
                             <coord x="-43569" y="-280343"/>
@@ -4720,7 +4800,7 @@ Saat geplant</text>
                     <ref object="342"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="23">
                             <coord x="-41527" y="-284864"/>
                             <coord x="-43569" y="-280343"/>
@@ -4757,7 +4837,7 @@ Saat geplant</text>
                     <ref object="342"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="23">
                             <coord x="-41527" y="-284864"/>
                             <coord x="-43569" y="-280343"/>
@@ -4794,7 +4874,7 @@ Saat geplant</text>
                     <ref object="342"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="23">
                             <coord x="-41527" y="-284864"/>
                             <coord x="-43569" y="-280343"/>
@@ -4831,7 +4911,7 @@ Saat geplant</text>
                     <ref object="342"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="23">
                             <coord x="-41527" y="-284864"/>
                             <coord x="-43569" y="-280343"/>
@@ -4868,7 +4948,7 @@ Saat geplant</text>
                     <ref object="342"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="23">
                             <coord x="-41527" y="-284864"/>
                             <coord x="-43569" y="-280343"/>
@@ -5009,7 +5089,7 @@ Saat geplant</text>
                     <ref object="126"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="4" symbol="44" h_align="0" v_align="1">
+                    <object type="4" symbol="45" h_align="0" v_align="1">
                         <coords count="1">
                             <coord x="-275534" y="-168238"/>
                         </coords>
@@ -5035,7 +5115,7 @@ Lavendel
                     <ref object="240"/>
                 </affected_objects>
                 <contained_objects count="1">
-                    <object type="0" symbol="37">
+                    <object type="0" symbol="38">
                         <coords count="1">
                             <coord x="-285274" y="-57360"/>
                         </coords>
@@ -5048,7 +5128,7 @@ Lavendel
                     <ref object="306"/>
                 </affected_objects>
                 <contained_objects count="2">
-                    <object type="1" symbol="49">
+                    <object type="1" symbol="50">
                         <coords count="5">
                             <coord x="-291688" y="-36807" flags="32"/>
                             <coord x="-279489" y="-36807" flags="32"/>
@@ -5060,7 +5140,7 @@ Lavendel
                             <coord x="0" y="0"/>
                         </pattern>
                     </object>
-                    <object type="0" symbol="34">
+                    <object type="0" symbol="35">
                         <coords count="1">
                             <coord x="-284800" y="-46811"/>
                         </coords>
@@ -5210,6 +5290,1277 @@ Lavendel
                     <ref object="12"/>
                 </affected_objects>
                 <source part="0"/>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="78"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="1">
+                            <ref object="78"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="28">
+                                <coords count="2">
+                                    <coord x="-195096" y="-303684"/>
+                                    <coord x="-187039" y="-333946"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="78"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="79"/>
+                </affected_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="14"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="29">
+                        <coords count="2">
+                            <coord x="-201623" y="-306132" flags="32"/>
+                            <coord x="-194706" y="-332629" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="79"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="1">
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="80"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="80"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-224057" y="-291429"/>
+                            <coord x="-215287" y="-324135"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="1">
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="81"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="81"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-224057" y="-291429"/>
+                            <coord x="-215287" y="-324135"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="1">
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="82"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="82"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-224057" y="-291429"/>
+                            <coord x="-215287" y="-324135"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="82"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-231822" y="-307325"/>
+                            <coord x="-223052" y="-340031"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="82"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-232004" y="-306780"/>
+                            <coord x="-223234" y="-339486"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="82"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-231732" y="-306780"/>
+                            <coord x="-222962" y="-339486"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="80"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-226432" y="-305864"/>
+                            <coord x="-217662" y="-338570"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="80"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-226160" y="-305228"/>
+                            <coord x="-217390" y="-337934"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="80"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-225978" y="-305319"/>
+                            <coord x="-217208" y="-338025"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="81"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-229173" y="-306046"/>
+                            <coord x="-220403" y="-338752"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="81"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-228356" y="-306046"/>
+                            <coord x="-219586" y="-338752"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="7">
+                <affected_objects part="1">
+                    <ref object="79"/>
+                </affected_objects>
+            </step>
+            <step type="7">
+                <affected_objects part="1">
+                    <ref object="81"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="1">
+                            <ref object="79"/>
+                            <ref object="81"/>
+                        </affected_objects>
+                        <contained_objects count="2">
+                            <object type="1" symbol="28">
+                                <tags>
+                                    <t k="Art">Lauch</t>
+                                </tags>
+                                <coords count="2">
+                                    <coord x="-223372" y="-304859"/>
+                                    <coord x="-214602" y="-337565"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                            <object type="1" symbol="28">
+                                <tags>
+                                    <t k="Art">Lauch</t>
+                                </tags>
+                                <coords count="2">
+                                    <coord x="-228538" y="-306137"/>
+                                    <coord x="-219768" y="-338843"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="80"/>
+                            <ref object="81"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="82"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="1">
+                            <ref object="82"/>
+                        </affected_objects>
+                        <contained_objects count="1">
+                            <object type="1" symbol="28">
+                                <coords count="2">
+                                    <coord x="-231951" y="-230158"/>
+                                    <coord x="-239846" y="-206904"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="82"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="83"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="84"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="84"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-235899" y="-231392"/>
+                            <coord x="-243794" y="-207829"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="83"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-227078" y="-229295"/>
+                            <coord x="-234912" y="-205732"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="83"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-228250" y="-229295"/>
+                            <coord x="-236084" y="-205732"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="82"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="29">
+                        <coords count="2">
+                            <coord x="-231951" y="-230158"/>
+                            <coord x="-239846" y="-206904"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="85"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="86"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="87"/>
+                </affected_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="87"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <coords count="1">
+                            <coord x="-238613" y="-230775"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="86"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <coords count="1">
+                            <coord x="-241388" y="-223126"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="85"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <coords count="1">
+                            <coord x="-243671" y="-216033"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="85"/>
+                </affected_objects>
+            </step>
+            <step type="7">
+                <affected_objects part="1">
+                    <ref object="85"/>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="1">
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="86"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="86"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <tags>
+                            <t k="Art">Salat</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-246733" y="-217075"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="1">
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="87"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="87"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <tags>
+                            <t k="Art">Salat</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-243099" y="-226706"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="86"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <tags>
+                            <t k="Art">Salat</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-241307" y="-223050"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="86"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <tags>
+                            <t k="Art">Salat</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-238548" y="-230575"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="7">
+                <affected_objects part="1">
+                    <ref object="85">
+                        <t k="Art">Salat</t>
+                    </ref>
+                </affected_objects>
+            </step>
+            <step type="5">
+                <steps count="1">
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="86"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="86"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-245508" y="-228232"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="5">
+                <steps count="1">
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="87"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="87"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-245508" y="-228232"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="88"/>
+                </affected_objects>
+            </step>
+            <step type="7">
+                <affected_objects part="1">
+                    <ref object="88"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="89"/>
+                </affected_objects>
+            </step>
+            <step type="7">
+                <affected_objects part="1">
+                    <ref object="89"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="90"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="91"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="92"/>
+                </affected_objects>
+            </step>
+            <step type="7">
+                <affected_objects part="1">
+                    <ref object="92"/>
+                </affected_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="92"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art"></t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-238554" y="-230431"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="91"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="34">
+                        <coords count="1">
+                            <coord x="-241137" y="-223207"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="2">
+                <affected_objects part="1">
+                    <ref object="90"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="34">
+                        <coords count="1">
+                            <coord x="-243768" y="-215888"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="3">
+                <affected_objects part="1">
+                    <ref object="85"/>
+                    <ref object="86"/>
+                    <ref object="87"/>
+                </affected_objects>
+                <switch_symbol count="3">
+                    <ref symbol="18"/>
+                    <ref symbol="18"/>
+                    <ref symbol="18"/>
+                </switch_symbol>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="85"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-243745" y="-215887"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="86"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-241268" y="-223086"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="86"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-241331" y="-223244"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="85"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-243777" y="-216013"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="87"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="34">
+                        <tags>
+                            <t k="Art">Salat</t>
+                            <t k="Sorte">Wintersalat Baquieu</t>
+                        </tags>
+                        <coords count="1">
+                            <coord x="-238592" y="-230373"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="205"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="39">
+                        <coords count="2">
+                            <coord x="-112216" y="-277629" flags="32"/>
+                            <coord x="-105821" y="-300572" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="205"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="39">
+                        <coords count="2">
+                            <coord x="-112299" y="-277298" flags="32"/>
+                            <coord x="-105821" y="-300572" flags="48"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="4"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <coords count="1">
+                            <coord x="-247505" y="-349063"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="4"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <coords count="1">
+                            <coord x="-247734" y="-348262"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="4"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <coords count="1">
+                            <coord x="-247505" y="-347804"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="4"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="18">
+                        <coords count="1">
+                            <coord x="-248878" y="-347804"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="3">
+                <affected_objects part="1">
+                    <ref object="4"/>
+                </affected_objects>
+                <switch_symbol count="1">
+                    <ref symbol="18"/>
+                </switch_symbol>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="90"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="91"/>
+                </affected_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="84"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="4" symbol="45" h_align="0" v_align="1">
+                        <coords count="1">
+                            <coord x="-83465" y="-364072"/>
+                        </coords>
+                        <text>Massstab: 1:150
+Kartierung: Jon Eugster
+Kartenversion: v0.1.1
+Letztes Update: 29.03.25
+
+</text>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="286"/>
+                </affected_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="0">
+                    <ref object="287"/>
+                </affected_objects>
+            </step>
+            <step type="10">
+                <affected_objects part="0">
+                    <ref object="287"/>
+                    <ref object="286"/>
+                    <ref object="275"/>
+                </affected_objects>
+                <source part="1"/>
+            </step>
+            <step type="5">
+                <steps count="2">
+                    <step type="2">
+                        <affected_objects part="1">
+                            <ref object="52"/>
+                            <ref object="93"/>
+                        </affected_objects>
+                        <contained_objects count="2">
+                            <object type="1" symbol="15">
+                                <coords count="6">
+                                    <coord x="-246974" y="-206805"/>
+                                    <coord x="-237676" y="-234044"/>
+                                    <coord x="-245010" y="-235484"/>
+                                    <coord x="-258891" y="-209097"/>
+                                    <coord x="-247432" y="-206478"/>
+                                    <coord x="-246974" y="-206805" flags="18"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                            <object type="1" symbol="15">
+                                <coords count="5">
+                                    <coord x="-233455" y="-202930"/>
+                                    <coord x="-223372" y="-230805"/>
+                                    <coord x="-238208" y="-234080"/>
+                                    <coord x="-247714" y="-206527"/>
+                                    <coord x="-233455" y="-202930" flags="18"/>
+                                </coords>
+                                <pattern rotation="0">
+                                    <coord x="0" y="0"/>
+                                </pattern>
+                            </object>
+                        </contained_objects>
+                    </step>
+                    <step type="1">
+                        <affected_objects part="1">
+                            <ref object="93"/>
+                        </affected_objects>
+                    </step>
+                </steps>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="93"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="15">
+                        <coords count="9">
+                            <coord x="-237676" y="-234044"/>
+                            <coord x="-237702" y="-233968"/>
+                            <coord x="-223372" y="-230805"/>
+                            <coord x="-233455" y="-202930"/>
+                            <coord x="-247714" y="-206527"/>
+                            <coord x="-247709" y="-206541"/>
+                            <coord x="-258891" y="-209097"/>
+                            <coord x="-245010" y="-235484"/>
+                            <coord x="-237676" y="-234044" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="93"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="15">
+                        <coords count="8">
+                            <coord x="-237676" y="-234044"/>
+                            <coord x="-223372" y="-230805"/>
+                            <coord x="-233455" y="-202930"/>
+                            <coord x="-247714" y="-206527"/>
+                            <coord x="-247709" y="-206541"/>
+                            <coord x="-258891" y="-209097"/>
+                            <coord x="-245010" y="-235484"/>
+                            <coord x="-237676" y="-234044" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="93"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="15">
+                        <coords count="7">
+                            <coord x="-223372" y="-230805"/>
+                            <coord x="-233455" y="-202930"/>
+                            <coord x="-247714" y="-206527"/>
+                            <coord x="-247709" y="-206541"/>
+                            <coord x="-258891" y="-209097"/>
+                            <coord x="-245010" y="-235484"/>
+                            <coord x="-223372" y="-230805" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="93"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="15">
+                        <coords count="6">
+                            <coord x="-223372" y="-230805"/>
+                            <coord x="-233455" y="-202930"/>
+                            <coord x="-247709" y="-206541"/>
+                            <coord x="-258891" y="-209097"/>
+                            <coord x="-245010" y="-235484"/>
+                            <coord x="-223372" y="-230805" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="78"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-225978" y="-305410"/>
+                            <coord x="-217208" y="-338116"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="78"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-226404" y="-305505"/>
+                            <coord x="-217634" y="-338211"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="80"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="29">
+                        <tags>
+                            <t k="Art">Lauch</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-228538" y="-306137"/>
+                            <coord x="-219768" y="-338843"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="91"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="15">
+                        <coords count="6">
+                            <coord x="-220939" y="-301257"/>
+                            <coord x="-210915" y="-339399"/>
+                            <coord x="-218393" y="-340507"/>
+                            <coord x="-220885" y="-340784"/>
+                            <coord x="-230994" y="-304089"/>
+                            <coord x="-220939" y="-301257" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="80"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="29">
+                        <tags>
+                            <t k="Art">Lauch</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-228633" y="-306137"/>
+                            <coord x="-219863" y="-338843"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="80"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="29">
+                        <tags>
+                            <t k="Art">Lauch</t>
+                        </tags>
+                        <coords count="2">
+                            <coord x="-228633" y="-306137"/>
+                            <coord x="-219863" y="-338843"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="91"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="15">
+                        <coords count="6">
+                            <coord x="-220939" y="-301257"/>
+                            <coord x="-210915" y="-339399"/>
+                            <coord x="-218393" y="-340507"/>
+                            <coord x="-220885" y="-340784"/>
+                            <coord x="-230994" y="-304089"/>
+                            <coord x="-220939" y="-301257" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="91"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="15">
+                        <coords count="6">
+                            <coord x="-220939" y="-301257"/>
+                            <coord x="-210915" y="-339399"/>
+                            <coord x="-218393" y="-340507"/>
+                            <coord x="-221216" y="-341020"/>
+                            <coord x="-230994" y="-304089"/>
+                            <coord x="-220939" y="-301257" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="1">
+                    <ref object="91"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="15">
+                        <coords count="6">
+                            <coord x="-220939" y="-301257"/>
+                            <coord x="-210915" y="-339399"/>
+                            <coord x="-218393" y="-340507"/>
+                            <coord x="-221216" y="-341020"/>
+                            <coord x="-231220" y="-304134"/>
+                            <coord x="-220939" y="-301257" flags="18"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="1">
+                <affected_objects part="1">
+                    <ref object="94"/>
+                </affected_objects>
+            </step>
+            <step type="10">
+                <affected_objects part="1">
+                    <ref object="94"/>
+                </affected_objects>
+                <source part="0"/>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="280"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="28">
+                        <coords count="2">
+                            <coord x="-288188" y="-67647" flags="32"/>
+                            <coord x="-288152" y="-72058" flags="32"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="285"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="0" symbol="34">
+                        <coords count="1">
+                            <coord x="-286320" y="-69879"/>
+                        </coords>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="281"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="1" symbol="16">
+                        <coords count="5">
+                            <coord x="-284740" y="-72576" flags="32"/>
+                            <coord x="-277025" y="-72575" flags="32"/>
+                            <coord x="-276971" y="-66798" flags="32"/>
+                            <coord x="-284905" y="-66901" flags="32"/>
+                            <coord x="-284740" y="-72576" flags="50"/>
+                        </coords>
+                        <pattern rotation="0">
+                            <coord x="0" y="0"/>
+                        </pattern>
+                    </object>
+                </contained_objects>
             </step>
         </undo>
         <redo/>
