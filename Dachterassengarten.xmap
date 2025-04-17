@@ -873,7 +873,7 @@
                 </line_symbol>
             </symbol>
         </symbols>
-        <parts count="2" current="1">
+        <parts count="2" current="0">
             <part name="grundkarte">
                 <objects count="286">
                     <object type="1" symbol="0">
@@ -1664,7 +1664,7 @@
                         </coords>
                         <text>Massstab: 1:150
 Kartierung: Jon Eugster
-Kartenversion: v0.1.5d
+Kartenversion: v0.1.5
 Letztes Update: 17.04.25
 
 </text>
@@ -5445,7 +5445,7 @@ beeren</text>
         </templates>
         <view>
             <grid color="#80646464" display="0" alignment="0" additional_rotation="-0.44" unit="1" h_spacing="1" v_spacing="1" h_offset="0" v_offset="0" snapping_enabled="true"/>
-            <map_view zoom="0.509724" position_x="-228902" position_y="-277979">
+            <map_view zoom="0.354237" position_x="-236688" position_y="-273905">
                 <map opacity="1" visible="true"/>
                 <templates count="1">
                     <ref template="0" opacity="1"/>
@@ -5462,19 +5462,6 @@ beeren</text>
     </barrier>
     <barrier version="6" required="0.6.0">
         <undo>
-            <step type="0">
-                <affected_objects part="1">
-                    <ref object="117"/>
-                </affected_objects>
-                <contained_objects count="1">
-                    <object type="4" symbol="51" rotation="1.32595" h_align="1" v_align="2">
-                        <coords count="1">
-                            <coord x="-258416" y="-347500"/>
-                        </coords>
-                        <text>Himbeeren</text>
-                    </object>
-                </contained_objects>
-            </step>
             <step type="0">
                 <affected_objects part="1">
                     <ref object="117"/>
@@ -8154,6 +8141,24 @@ Letztes Update: 04.04.25
                             <coord x="-244161" y="-320811"/>
                         </coords>
                         <text>Wirz</text>
+                    </object>
+                </contained_objects>
+            </step>
+            <step type="0">
+                <affected_objects part="0">
+                    <ref object="84"/>
+                </affected_objects>
+                <contained_objects count="1">
+                    <object type="4" symbol="45" h_align="0" v_align="1">
+                        <coords count="1">
+                            <coord x="-83465" y="-364072"/>
+                        </coords>
+                        <text>Massstab: 1:150
+Kartierung: Jon Eugster
+Kartenversion: v0.1.5d
+Letztes Update: 17.04.25
+
+</text>
                     </object>
                 </contained_objects>
             </step>
